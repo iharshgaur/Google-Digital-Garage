@@ -8,16 +8,19 @@ body {
 
 #video-cards-container {
   /* border: 1px solid red; */
-  width: 1050px;
-  margin: 10px auto;
-  height: 400px;
+  display: flex;
+  padding: 10px;
+  max-width: 1050px;
+  margin: 0px auto;
+  height: auto;
 }
 
 .video-card {
+  flex-basis: 324px;
   background-color: white;
-  margin: 10px;
+  margin: 30px;
   /* border: 1px dashed black; */
-  height: 365px;
+  height: auto;
 }
 
 .float-left {
@@ -28,26 +31,46 @@ body {
   float: right;
 }
 
+.clear-both {
+  clear: both;
+}
+
 .video-card-info {
-  padding: 10px;
+  position: relative;
+  padding: 20px;
   color: grey;
-  width: 302px;
+  width: auto;
   /* border: 1px dashed red; */
-  height: 155px;
+  min-height: 185px;
+  margin: auto;
+}
+
+.video-card-info > p:nth-child(1) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-card-info > p:nth-child(2) {
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .heading {
   text-align: center;
 }
-
+.heading > p {
+  color: grey;
+}
 iframe {
-  width: 324px;
+  width: 100%;
   height: 182px;
 }
 
 .footer {
   width: 90%;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .footer-share {
@@ -79,4 +102,24 @@ iframe {
 .footer > hr {
   margin-bottom: 25px;
   margin-top: 25px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
