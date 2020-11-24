@@ -422,7 +422,7 @@ iframe {
 /* FAQ */
 .FAQ {
   /* border: 1px solid; */
-    border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);;
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -430,7 +430,13 @@ iframe {
 .FAQ > hr {
   width: 70%;
 }
+.FAQ > .content{
+  text-align: left;
+  width: 65%;
+  margin-left: 150px;
+  height: auto;
 
+}
 #faq-btn {
   background-color: rgb(242, 244, 246);
   border: transparent;
