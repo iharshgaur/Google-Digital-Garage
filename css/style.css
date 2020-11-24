@@ -333,6 +333,7 @@ iframe {
 }
 /* How it works */
 .steps-container {
+  margin-top: 70px;
   background-color: white;
   padding: 50px;
   text-align: center;
@@ -361,7 +362,7 @@ iframe {
 
 /* Skills you'll learn */
 .skills {
-  border-top: 1px solid;
+    border-top: 1px solid rgb(179, 175, 175);;
   background-color: white;
   padding: 90px;
   height: auto;
@@ -380,6 +381,7 @@ iframe {
 }
 /* Stories */
 .stories {
+    border-top: 1px solid rgb(179, 175, 175); rgb(179, 175, 175);
   background-color: white;
   padding: 50px;
 }
@@ -420,7 +422,7 @@ iframe {
 /* FAQ */
 .FAQ {
   /* border: 1px solid; */
-  border-top: 1px solid;
+    border-top: 1px solid rgb(179, 175, 175);;
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -440,7 +442,7 @@ iframe {
 }
 /* Start today */
 .start-today {
-  border-top: 1px solid;
+    border-top: 1px solid rgb(179, 175, 175);;
   text-align: center;
   width: 92.5%;
   background-color: white;
