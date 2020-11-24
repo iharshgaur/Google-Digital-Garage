@@ -259,6 +259,41 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
     </div>
+    <!-- Success stories -->
+    <div class="stories">
+      <h2>Success stories</h2>
+      <p>
+        Over 300,000 people have already gained this qualification, and are
+        using it to develop and improve their careers.
+      </p>
+      <div class="story-video float-left">
+        <iframe
+          src="https://www.youtube.com/embed/T2d0X_X12ZM"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="story-txt float-right">
+        <div id="div1" class="story-visible">
+          <h3>Sylwia’s story</h3>
+          <p>
+            Meet Sylwia from icube.pl. After building her skills and getting
+            certified, she was promoted to Content Marketing Manager and has
+            since helped her agency expand into multiple markets.
+          </p>
+        </div>
+        <div id="div2" class="story-hide">
+          <h3>Darko's story</h3>
+          <p>
+            After completing the training courses, Darko Dujič, CEO of Slovenian
+            e-commerce platform Ceneje.si, was so impressed that he encouraged
+            everyone in the company to follow suit.
+          </p>
+        </div>
+      </div>
+      <div class="clear-both"></div>
+    </div>
 
     <!-- FAQ -->
     <div class="FAQ">
@@ -453,6 +488,7 @@
       </div>
     </div>
     <script>
+      // for collapsible dropdowns
       var coll = document.getElementsByClassName("collapsible");
       var i;
 
@@ -467,7 +503,7 @@
           }
         });
       }
-
+      // for skills slideshow
       var slideIndex = 1;
       showSlides(slideIndex);
 
@@ -492,12 +528,34 @@
         for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
         slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
       }
+
+      //for stories div
+      var div1 = document.querySelector("#div1");
+      var div2 = document.querySelector("#div2");
+      var vid = document.querySelector(".story-video");
+      div1.addEventListener("click", function (event) {
+        event.currentTarget.setAttribute("class", "story-visible");
+        div2.setAttribute("class", "story-hide");
+        vid.innerHTML = `<iframe
+          src="https://www.youtube.com/embed/T2d0X_X12ZM"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>`;
+      });
+      div2.addEventListener("click", function (event) {
+        event.currentTarget.setAttribute("class", "story-visible");
+        div1.setAttribute("class", "story-hide");
+        vid.innerHTML = `<iframe
+        src="https://www.youtube.com/embed/OSjwp06orHU" 
+        frameborder="0" 
+        allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>`;
+      });
     </script>
   </body>
 </html>
