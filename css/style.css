@@ -1,4 +1,4 @@
-* {
+*{
   font-family: "Open Sans", sans-serif;
 }
 .garage_img{
@@ -34,7 +34,8 @@
     margin: 10px;
 }
 .blue1{
-    color: blue;
+  color: #7b1fa2;
+  font-weight: bold;
 }
 .float-right{
   float: right;
@@ -44,16 +45,21 @@
   float: left;
 }
 .get_new{
-  height: 80%; width: 50%; float: left;
+  height: 700px; width: 50%; float: left;
 }
 .get_new>img{
   height: 100%;;width: 100%;
 }
 .get_new>div>h1{
   /* font-family: 'Roboto Condensed', sans-serif; */
-  margin-top: 30px;
+  margin-top: 50px;
   font-weight: 400;
   font-size: 50px;
+  padding: 10px;
+}
+.get_new>div>p{
+  padding: 10px;
+  margin-top:10px;
 }
 .get_new>div{
   font-family: 'Roboto Condensed', sans-serif;
@@ -70,6 +76,8 @@
 }
 .gain_today{
   text-align: center;
+  height: 230px;
+  
 }
 .button_red{
   width: 250px;
@@ -85,7 +93,7 @@
 }
 .red:hover{
   background-color:red;
-  color: white;
+  color:blue;
 }
 .button_green{
   border: white;
@@ -119,18 +127,22 @@
   color: white;
 }
 .free{
-  height: 1%;width: 100%;background-color: rgb(236, 234, 226);
+  height: 50px;width: 100%;background-color:rgb(241, 243, 244)
 }
 .free>div>p{
   padding-top: 10px; text-align: center;
 }
 .learn_new{
 text-align: center;
-position: relative;
-left :850px;
-bottom: 39px; 
+position:relative;
+left :865px;
+bottom: 37px; 
 color: darkmagenta;
+font-weight: bold;
 }
 .browse_course{
 -webkit-appearance: none;border: 0px;background: none; 
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
