@@ -22,8 +22,13 @@
         margin-left: 5%;
         border-radius: 2px;
     }
+    .development{
+      background-color: white;
+      padding: 10px;
+    }
     .main-1{
         height: 300px;
+
     }
     .main-2{
         height: 187px;
@@ -52,7 +57,8 @@
     }
     .text-1, .text-2, .text-3{
         width: 16.7%;
-        height: 170px;
+        height: auto;
+        /* border: 1px solid */
     }
     .text-1{
         margin-left: 1%;
@@ -93,7 +99,7 @@
         border: 0;
         background: none;
         -webkit-appearance: none;
-        font: bolder;
+        font-weight: bold;
     }
     .see-more-topics{
         border: 0;
