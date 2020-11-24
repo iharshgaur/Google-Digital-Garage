@@ -208,6 +208,94 @@
       </div>
       <div class="clear-both"></div>
     </div>
+    <!-- Modules -->
+    <div class="modules">
+      <h2>Modules (5)</h2>
+      <div class="cards-container">
+        <div class="cards fade">
+          <div class="module">
+            <img
+              src="https://lh3.googleusercontent.com/7nId5qqZMpCWyJRM7Ug8wiVAOaWOPlkIjnzHXHOdwZG2DA7jQ9ze8Mv4PnPiOCWYiZnKS6qwGffTR0gJuZlZb6_39ZExnkz7AAZfmL8"
+              alt="icon"
+            />
+            <h4>The online opportunity</h4>
+            <p>2 Lessons / 15 min</p>
+            <hr />
+            <a href="#">Intro to Digital Garage</a><br />
+            <br />
+            <a href="#">Your digital opportunity</a>
+          </div>
+        </div>
+        <div class="cards fade">
+          <div class="module">
+            <img
+              src="https://lh3.googleusercontent.com/8Wmxu9zJjs9gB-vvs9APmySY3l3kT_Be_dUn2NCpRYR8IeoSNADyes7--T_dWW_Lq9uudKZKwDhPQSVA8lLNjlvnx4Z3UDLcRac-Znw"
+              alt="icon"
+            />
+            <h4>Your first steps in online success</h4>
+            <p>4 Lessons / 30 min</p>
+            <hr />
+            <a href="#">Your online goals</a> <br /><br />
+            <a href="#">Building your online presence</a><br /><br />
+            <a href="#">Marketing your online presence</a> <br /><br />
+            <a href="#">Analyse and adapt</a>
+          </div>
+        </div>
+        <div class="cards fade">
+          <div class="module">
+            <img
+              src="https://lh3.googleusercontent.com/BO5E8aQODXSUk8cvfSRBTv0p4KdjSIh525VZF-_7PwkwU_bY_0Fo1wOcH3F1wvHMCNd-E3u3Z83v2czcCHeVm5uFMQvRohn19z0N-w"
+              alt="icon"
+            />
+            <h4>Build your web presence</h4>
+            <p>6 Lessons / 40 min</p>
+            <hr />
+            <a href="#">Choosing your online presence</a> <br /><br />
+            <a href="#">How websites work</a><br /><br />
+            <a href="#">Key website ingredients</a> <br /><br />
+            <a href="#">Websites and your business goals</a><br /><br />
+            <a href="#">Make your website easy to use</a> <br /><br />
+            <a href="#">Website design do’s and don’ts</a>
+          </div>
+        </div>
+        <div class="cards fade">
+          <div class="module">
+            <img
+              src="https://lh3.googleusercontent.com/YmO_ZKke1ByfC4M_5fkGzwzZWSM4X7Ds6FLLVzEtthQsAjTg4owXENTM1s-qoBqJfEc9hzMNn8hflsnI7j3F0e-6oyPj5TrqJ3EPhw"
+              alt="icon"
+            />
+            <h4>Plan your online business strategy</h4>
+            <p>5 Lessons / 30 min</p>
+            <hr />
+            <a href="#">The benefits of an online strategy</a> <br /><br />
+            <a href="#">Taking a business online</a><br /><br />
+            <a href="#">Understanding customer behaviour</a> <br /><br />
+            <a href="#">How to stand out from the competition</a><br /><br />
+            <a href="#">Using goals to improve business performance</a>
+          </div>
+        </div>
+        <div class="cards fade">
+          <div class="module">
+            <img
+              src="https://lh3.googleusercontent.com/ZcW8vDHKLws8pfv9TgJmtXZrWr5LxEVVq3oABMSBMgZxgH9k3uLV-ODRP_nEmEyOGFmOkSCj_vmDht2EG5UCpT65rRPpg3g_VkN4ng"
+              alt="icon"
+            />
+            <h4>Get started with search</h4>
+            <p>6 Lessons / 45 min</p>
+            <hr />
+            <a href="#">Search engine basics</a> <br /><br />
+            <a href="#">How search engines work</a><br /><br />
+            <a href="#">How search engines see the web</a> <br /><br />
+            <a href="#">Organic search explained</a><br /><br />
+            <a href="#">Paid search explained</a> <br /><br />
+            <a href="#">Google search console</a>
+          </div>
+        </div>
+        <!-- sidebuttons -->
+        <a class="prev1" onclick="plusCards(-1)">&#10094;</a>
+        <a class="next1" onclick="plusCards(1)">&#10095;</a>
+      </div>
+    </div>
     <!-- Skills you'll learn -->
     <div class="skills">
       <h2>Skills you'll learn</h2>
@@ -254,7 +342,7 @@
             </p>
           </div>
         </div>
-
+        <!-- sidebuttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
@@ -518,7 +606,6 @@
       function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("partner-img");
-        var dots = document.getElementsByClassName("dot");
         if (n > slides.length) {
           slideIndex = 1;
         }
@@ -556,6 +643,33 @@
         allowfullscreen
         ></iframe>`;
       });
+
+      //for modules slideshow
+      var cardIndex = 1;
+      showCards(cardIndex);
+
+      function plusCards(n) {
+        showCards((cardIndex += n));
+      }
+
+      function currentSlide1(n) {
+        showCards((cardIndex = n));
+      }
+
+      function showCards(n) {
+        var i;
+        var cards = document.getElementsByClassName("cards");
+        if (n > cards.length) {
+          cardIndex = 1;
+        }
+        if (n < 1) {
+          cardIndex = cards.length;
+        }
+        for (i = 0; i < cards.length; i++) {
+          cards[i].style.display = "none";
+        }
+        cards[cardIndex - 1].style.display = "block";
+      }
     </script>
   </body>
 </html>
