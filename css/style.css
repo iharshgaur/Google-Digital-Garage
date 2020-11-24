@@ -1,7 +1,7 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
-/* test comment */
+
 body {
   background-color: rgb(248, 249, 251);
 }
@@ -65,6 +65,113 @@ iframe {
   height: 182px;
 }
 
+/* Partners */
+
+.mySlides {
+  display: none;
+  height: 250px;
+}
+.mySlides > img {
+  height: 180px;
+  margin-left: 23%;
+}
+
+.Partners {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.Partners > h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* slideshow containers */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(102, 102, 230);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.partner-img-text {
+  color: grey;
+  font-size: 12px;
+  padding: 10px;
+  position: absolute;
+  bottom: 8px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* footer */
 .footer {
   width: 90%;
   margin: 5px auto;

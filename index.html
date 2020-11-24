@@ -75,6 +75,50 @@
         <div class="clear-both"></div>
       </div>
     </div>
+    <br />
+    <div class="Partners">
+      <h2>How we've been recognised</h2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img
+            src="https://lh3.googleusercontent.com/T_QBHzK4sogdPLOJrmZMoD-R_5VuF79KuHzPfXgD_dIWCj4jRocmKPuxbJtTDP46doJ5vrt4UYu_Y8L7NP3hZ2AZCDR2h3HvYO03"
+            style="width: 55%"
+          />
+          <div class="partner-img-text">
+            For boosting digital skills in Europe
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="https://lh3.googleusercontent.com/I-1_z0dPKTGReRt-yJK4pdAY1Q2E0rXBB3OnFz4MmVsbHjhxXnVsUW3OIU0jbLqdMns7IkWYoGkXiPVtLRRtYjEKR6kUKhiGS3QEuA"
+            style="width: 55%"
+          />
+          <div class="partner-img-text">
+            For contributing to economic growth across Europe
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="https://lh3.googleusercontent.com/Alvyf4K9S0pyqNyk8qR_UMDouZYK-rsethpnkocbwyIIq6OLmn9Tleb8Oi-5O75tKJyQy7bD7TyLzFP5fccaRhX6GNDeRZX82I3Xlg"
+            style="width: 55%"
+          />
+          <div class="partner-img-text">
+            For finding new ways to make education innovative and captivating
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
 
     <div class="footer">
       <div class="footer-share">
@@ -209,5 +253,38 @@
         </div>
       </div>
     </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
   </body>
 </html>
