@@ -1,9 +1,8 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
-/*<!---------Start----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
 /* Navbar */
-.navbar{
+.navbar {
   position: fixed;
   left: 1px;
   width: 100%;
@@ -11,57 +10,58 @@
   top: 0px;
   z-index: 1;
   background-color: white;
-} 
-.garage-img{
+}
+.garage-img {
   width: 18%;
   margin: 20px;
   margin-left: 10px;
 }
-.nav-menus{
+.nav-menus {
   margin: 22px;
   margin-left: 10px;
   font-size: 15px;
   text-decoration: none;
   color: grey;
 }
-.nav-signin{
+.nav-signin {
   margin: 22px;
   font-size: 15px;
   text-decoration: none;
-  color:  rgb(25, 107, 217);
+  color: rgb(25, 107, 217);
   font-weight: bold;
 }
-.google-register-btn{
+.google-register-btn {
   margin: 10px;
   font-size: 15px;
 }
 /* mentoring */
-.free-mentoring{
+.free-mentoring {
   width: 100%;
   height: 70px;
-  background-color:rgb(242, 243, 245);
+  background-color: rgb(242, 243, 245);
   color: rgb(134, 133, 133);
   text-align: center;
   margin-top: 70px;
   padding: 5px;
 }
-.free-mentoring > p{
+.free-mentoring > p {
   margin-top: 20px;
 }
-p> a, .hero-text > a{
+p > a,
+.hero-text > a {
   text-decoration: none;
-  color :  rgb(25, 107, 217);
+  color: rgb(25, 107, 217);
 }
 
 /* Heros */
-.hero{
+.hero {
   /* border: 1px solid; */
   width: 100%;
   background-color: white;
   height: 510px;
   padding: 1px;
 }
-.hero-text{
+.hero-text {
   width: 41%;
   /* border: 1px solid; */
   padding: 50px;
@@ -69,22 +69,21 @@ p> a, .hero-text > a{
   height: 351px;
   color: grey;
 }
-.hero-text > h1{
- color: black
+.hero-text > h1 {
+  color: black;
 }
-.hero-text > ul{
- margin-left: -20px;
+.hero-text > ul {
+  margin-left: -20px;
 }
-.hero-img{
+.hero-img {
   width: 50.5%;
   /* border: 1px solid; */
   height: auto;
 }
-.hero-img > img{
-
+.hero-img > img {
   height: 510px;
 }
-.blue-button{
+.blue-button {
   background-color: rgb(25, 107, 217);
   color: white;
   height: 50px;
@@ -92,279 +91,294 @@ p> a, .hero-text > a{
   border-radius: 2px;
   width: 100px;
 }
-.hero-btn{
+.hero-btn {
   margin-top: 30px;
   font-size: 15px;
   width: 150px;
 }
 /* Skills */
-.hero-skills{
-  background-color:rgb(242, 243, 245);
+.hero-skills {
+  background-color: rgb(242, 243, 245);
   padding: 40px;
   text-align: center;
 }
 
-.skills-btns{
+.skills-btns {
   margin: 10px auto;
-  width: 600px ;
+  width: 600px;
 }
-.hero-skills >p{
+.hero-skills > p {
   color: grey;
 }
-.skill-btn-1,.skill-btn-2,.skill-btn-3{
+.skill-btn-1,
+.skill-btn-2,
+.skill-btn-3 {
   width: 180px;
   height: 50px;
   font-size: 15px;
   margin: 10px;
   border-radius: 50px;
   border: none;
-  background-color:white;
+  background-color: white;
   font-weight: bold;
 }
-.skill-btn-1{
+.skill-btn-1 {
   color: red;
 }
-.skill-btn-2{
+.skill-btn-2 {
   color: green;
 }
-.skill-btn-3{
+.skill-btn-3 {
   color: rgb(25, 107, 217);
 }
-.skill-btn-1:hover{
+.skill-btn-1:hover {
   color: white;
   background-color: red;
 }
-.skill-btn-2:hover{
+.skill-btn-2:hover {
   color: white;
   background-color: green;
 }
-.skill-btn-3:hover{
+.skill-btn-3:hover {
   color: white;
   background-color: rgb(25, 107, 217);
 }
 
+.upper-text-1,
+.upper-text-2,
+.upper-text-3 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.upper-text-3 {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
 
-.upper-text-1, .upper-text-2, .upper-text-3{
-        text-align: center;
-        margin-bottom: 0px;
-        font-size: 30px;
-    }
-    .upper-text-3{
-      font-size: 20px;
-      margin-bottom: 3%;
-    }
-
-    .upper-text-2{
-        margin-bottom: 1%;
-    }
-    .upper-text-3-1{
-        text-align: center;
-        font-size: 17px;
-        color: grey;
-        position: relative;
-        bottom: 30px;
-    }
-    .main-1, .main-2, .main-3{
-        width: 90%;
-        display: flex;
-        margin-left: 8%;
-        border-radius: 2px;
-    }
-    .development-container{
-        height: 400px;
-        background-color: white;
-        margin-bottom: 2%;
-        width: 100%;
-        border-top: 1px solid;
-        align-items: center;
-    }
-    .main-1{
-      
-      margin-left: 3%;
-    }
-    .main-2{
-        height: 187px;
-        margin-top: 3%;
-    }
-    .main-3{
-        height: 150px;
-    }
-    .flex-1, .flex2, .flex-3{
-        background-color: white;
-        border-radius: 2px;
-        flex-direction: column-reverse;
-        border: 2px solid white;
-    }
-    .flex-4, .flex-5, .flex-6{
-      position: relative;
-        flex-direction: column-reverse;
-        width: 27%;
-        height: 150px;
-        background-color: white;
-        border-radius: 2px;
-    }
-    .flex-5{
-        margin-left: 5.6%;
-    }
-    .flex-6{
-        margin-left: 5.7%;
-    }
-  .flex-1{
-    margin-left: 5%
-  }
-    .text-1, .text-2, .text-3{
-        width: 16.7%;
-        height: auto;
-        /* border: 1px solid */
-    }
-    .text-1{
-        margin-left: 1%;
-    }
-    .text-2{
-        margin-left: 8%;
-    }
-    .text-3{
-        margin-left: 10%;
-    }
-    .details{
-        color: grey;
-        font-size: 17px;
-        line-height: 1.4;
-    }
-    .img-2{
-        margin-left: 90%;
-    }
-    .img-3{
-        margin-left: 110%;
-    }
-    .img-5{
-        margin-left: 6%;
-    }
-    .img-6{
-        margin-left: 6%;
-    }
-    .text-4, .text-5, .text-6{
-        font-size: 12px;
-        margin-left: 5%;
-    }
-    .get-started{
-      position:absolute;
-      text-decoration: none;
-        bottom: 20px;
-        left: 20px;
-        color:rgb(25, 107, 217);
-        font-size: 18px;
-        background-color: white;
-        border: 0;
-        background: none;
-    }
-    .see-more-topics{
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        color: rgb(25, 107, 217);
-        margin-left: 43%;
-        margin-top: 3%;
-        font-size: 18px;
-    }
-    .live-training{
-      background-color: white;
-      padding :  30px;
-      padding-bottom: 90px;
-      margin-top: 50px;
-      margin-bottom: 80px;
-    }
-    .main-4{
-        width: 60%;
-        height: 900px;
-        margin-left: 22%;
-    }
-    .rectangle-1, .rectangle-2, .rectangle-3{
-        width: 98%;
-        height: 250px;
-        background-color: white;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    }
-    .rect-text-1{
-        margin-left: 3%;
-        border: 4px solid white;
-    }
-    .rectangle-2{
-        margin-top: 3%;
-    }
-    .rectangle-3{
-        margin-top: 3%;
-    }
-    .rectangle-1 > hr, .rectangle-2 > hr, .rectangle-3 > hr{
-      width: 95%;
-    }
-    .loc-img-1{
-        position: relative;
-        left: 2%;
-        top: 4%; 
-    }
-    .loc-text-1{
-        position: relative;
-        bottom: 15%;
-        left: 8%;
-        color: grey;
-        font-size: 18px;
-    }
-    .cal-img-1{
-        position: relative;
-        bottom: 20%;
-        left: 2%;
-    }
-    .cal-text-1{
-        position: relative;
-        bottom: 40%;
-        left: 8%;
-        color: grey;
-    }
-    .register-btn, .btn-events{
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 20px;
-    }
-    .register-btn{
-        color: rgb(25, 107, 217);
-        position: absolute;
-        right: -50px;
-        text-decoration: none;
-    }
-    .reg-b:hover{
-        color: purple;
-    }
-    .btn-events{
-        background-color: rgb(243, 242, 246);
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-        color: rgb(25, 107, 217);
-  
-    }
-    .btn-events:hover{
-      background-color: rgb(234, 235, 237);
-      color: rgb(18, 18, 172)
-    }
-    .btn{
-        position: relative;
-        left: 70%;
-        bottom: 60%;
-        width: 20%;
-        height: 50px;
-    }
-    .see-more-events{
-      
-        text-align: center;
-        width: 25%;
-        height: 50px;
-        margin-left: 35%;
-        margin-top: 5%;
-        padding-top: 2%;
-        padding-bottom: 1%;
-    }
+.upper-text-2 {
+  margin-bottom: 1%;
+}
+.upper-text-3-1 {
+  text-align: center;
+  font-size: 17px;
+  color: grey;
+  position: relative;
+  bottom: 30px;
+}
+.main-1,
+.main-2,
+.main-3 {
+  width: 90%;
+  display: flex;
+  margin-left: 8%;
+  border-radius: 2px;
+}
+.development-container {
+  height: 400px;
+  background-color: white;
+  margin-bottom: 2%;
+  width: 100%;
+  border-top: 1px solid;
+  align-items: center;
+}
+.main-1 {
+  margin-left: 3%;
+}
+.main-2 {
+  height: 187px;
+  margin-top: 3%;
+}
+.main-3 {
+  height: 150px;
+}
+.flex-1,
+.flex2,
+.flex-3 {
+  background-color: white;
+  border-radius: 2px;
+  flex-direction: column-reverse;
+  border: 2px solid white;
+}
+.flex-4,
+.flex-5,
+.flex-6 {
+  position: relative;
+  flex-direction: column-reverse;
+  width: 27%;
+  height: 150px;
+  background-color: white;
+  border-radius: 2px;
+}
+.flex-5 {
+  margin-left: 5.6%;
+}
+.flex-6 {
+  margin-left: 5.7%;
+}
+.flex-1 {
+  margin-left: 5%;
+}
+.text-1,
+.text-2,
+.text-3 {
+  width: 16.7%;
+  height: auto;
+  /* border: 1px solid */
+}
+.text-1 {
+  margin-left: 1%;
+}
+.text-2 {
+  margin-left: 8%;
+}
+.text-3 {
+  margin-left: 10%;
+}
+.details {
+  color: grey;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.img-2 {
+  margin-left: 90%;
+}
+.img-3 {
+  margin-left: 110%;
+}
+.img-5 {
+  margin-left: 6%;
+}
+.img-6 {
+  margin-left: 6%;
+}
+.text-4,
+.text-5,
+.text-6 {
+  font-size: 12px;
+  margin-left: 5%;
+}
+.get-started {
+  position: absolute;
+  text-decoration: none;
+  bottom: 20px;
+  left: 20px;
+  color: rgb(25, 107, 217);
+  font-size: 18px;
+  background-color: white;
+  border: 0;
+  background: none;
+}
+.see-more-topics {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  color: rgb(25, 107, 217);
+  margin-left: 43%;
+  margin-top: 3%;
+  font-size: 18px;
+}
+.live-training {
+  background-color: white;
+  padding: 30px;
+  padding-bottom: 90px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.main-4 {
+  width: 60%;
+  height: 900px;
+  margin-left: 22%;
+}
+.rectangle-1,
+.rectangle-2,
+.rectangle-3 {
+  width: 98%;
+  height: 250px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.rect-text-1 {
+  margin-left: 3%;
+  border: 4px solid white;
+}
+.rectangle-2 {
+  margin-top: 3%;
+}
+.rectangle-3 {
+  margin-top: 3%;
+}
+.rectangle-1 > hr,
+.rectangle-2 > hr,
+.rectangle-3 > hr {
+  width: 95%;
+}
+.loc-img-1 {
+  position: relative;
+  left: 2%;
+  top: 4%;
+}
+.loc-text-1 {
+  position: relative;
+  bottom: 15%;
+  left: 8%;
+  color: grey;
+  font-size: 18px;
+}
+.cal-img-1 {
+  position: relative;
+  bottom: 20%;
+  left: 2%;
+}
+.cal-text-1 {
+  position: relative;
+  bottom: 40%;
+  left: 8%;
+  color: grey;
+}
+.register-btn,
+.btn-events {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 20px;
+}
+.register-btn {
+  color: rgb(25, 107, 217);
+  position: absolute;
+  right: -50px;
+  text-decoration: none;
+}
+.reg-b:hover {
+  color: purple;
+}
+.btn-events {
+  background-color: rgb(243, 242, 246);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: rgb(25, 107, 217);
+}
+.btn-events:hover {
+  background-color: rgb(234, 235, 237);
+  color: rgb(18, 18, 172);
+}
+.btn {
+  position: relative;
+  left: 70%;
+  bottom: 60%;
+  width: 20%;
+  height: 50px;
+}
+.see-more-events {
+  text-align: center;
+  width: 25%;
+  height: 50px;
+  margin-left: 35%;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
 /*<!---------End----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
 body {
   background-color: rgb(248, 249, 251);
@@ -503,7 +517,6 @@ iframe {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 
 /* Fading animation */
 .fade {
@@ -728,12 +741,12 @@ iframe {
   margin-top: 90px;
 }
 /* Modules */
-.modules{
+.modules {
   height: auto;
   width: auto;
   margin: 80px;
 }
-.modules > h2{
+.modules > h2 {
   text-align: center;
   margin-bottom: 100px;
 }
@@ -751,26 +764,24 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 0 5px;
 }
-.module > img{
+.module > img {
   width: 20%;
 }
-.module > h4{
+.module > h4 {
   margin-bottom: 0px;
 }
-.module > p{
+.module > p {
   margin-top: 5px;
-  color: grey
+  color: grey;
 }
-.module > a{
+.module > a {
   text-decoration: none;
   color: rgb(51, 51, 236);
   font-size: 14px;
 }
-.module >hr{
+.module > hr {
   margin-bottom: 15px;
 }
-
-
 
 /* slideshow containers */
 .cards-container {
@@ -814,11 +825,9 @@ iframe {
   text-align: center;
 }
 
-
-
 /* Skills you'll learn */
 .skills {
-    border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);
   background-color: white;
   padding: 90px;
   height: auto;
@@ -837,7 +846,7 @@ iframe {
 }
 /* Stories */
 .stories {
-    border-top: 1px solid rgb(179, 175, 175); rgb(179, 175, 175);
+  border-top: 1px solid rgb(179, 175, 175);
   background-color: white;
   padding: 50px;
 }
@@ -878,7 +887,7 @@ iframe {
 /* FAQ */
 .FAQ {
   /* border: 1px solid; */
-  border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -886,12 +895,11 @@ iframe {
 .FAQ > hr {
   width: 70%;
 }
-.FAQ > .content{
+.FAQ > .content {
   text-align: left;
   width: 65%;
   margin-left: 190px;
   height: auto;
-
 }
 #faq-btn {
   background-color: rgb(242, 244, 246);
@@ -904,7 +912,7 @@ iframe {
 }
 /* Start today */
 .start-today {
-    border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);
   text-align: center;
   width: 92.5%;
   background-color: white;
@@ -916,55 +924,55 @@ iframe {
 }
 
 /* Courses List */
-.courses-heading{
+.courses-heading {
   width: auto;
   background-color: white;
   height: 180px;
   padding: 50px;
   padding-top: 80px;
 }
-.heading-content{
+.heading-content {
   width: 60%;
 }
-.heading-content >h1{
+.heading-content > h1 {
   font-size: 40px;
   margin-bottom: 0px;
 }
-.heading-content >p{
+.heading-content > p {
   color: grey;
-  font-size:18px;
+  font-size: 18px;
   margin-top: 5px;
   text-align: justify;
 }
 
-.left-column{
+.left-column {
   border: 1px solid;
 
   width: 25%;
 }
-.right-column{
+.right-column {
   width: 70%;
   margin-top: 80px;
   border: 1px solid;
 }
 
-.checklist{
+.checklist {
   /* border: 1px solid; */
   width: 80%;
   margin: 50px auto;
-  padding:20px
+  padding: 20px;
 }
-.checklist > h4{
+.checklist > h4 {
   margin-bottom: 30px;
-  font-size:14px
+  font-size: 14px;
 }
-.checklist > div > input[type="checkbox"]{
+.checklist > div > input[type="checkbox"] {
   width: 25px;
   height: 25px;
   margin: 10px;
   margin-right: 5px;
 }
-.checklist > div> h5{
+.checklist > div > h5 {
   /* border: 1px solid; */
   width: 60%;
   font-weight: normal;
@@ -973,15 +981,15 @@ iframe {
   margin: 10px;
   margin-right: 50px;
 }
-.left-column > .checklist:nth-child(5){
+.left-column > .checklist:nth-child(5) {
   margin-bottom: 10px;
   border-bottom: 1px solid;
 }
-.left-column > a{
-  margin:50px;
+.left-column > a {
+  margin: 50px;
   color: blue;
   text-decoration: none;
-  font-size:15px;
+  font-size: 15px;
   font-weight: bold;
 }
 
