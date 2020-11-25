@@ -1,7 +1,7 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
-
+/*<!---------Start----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
  .upper-text-1, .upper-text-2, .upper-text-3{
         text-align: center;
         font-size: 30px;
@@ -105,17 +105,19 @@
         font-size: 18px;
     }
     .main-4{
-        width: 55%;
+        width: 60%;
         height: 900px;
-        margin-left: 20%;
+        margin-left: 22%;
     }
     .rectangle-1, .rectangle-2, .rectangle-3{
         width: 98%;
         height: 250px;
         background-color: white;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
     .rect-text-1{
         margin-left: 3%;
+        border: 4px solid white;
     }
     .rectangle-2{
         margin-top: 3%;
@@ -137,12 +139,12 @@
     }
     .cal-img-1{
         position: relative;
-        bottom: 13%;
+        bottom: 20%;
         left: 2%;
     }
     .cal-text-1{
         position: relative;
-        bottom: 30%;
+        bottom: 40%;
         left: 8%;
         color: grey;
     }
@@ -154,7 +156,6 @@
     }
     .register-btn{
         color: #48cae4;
-        /* border: 1px solid black; */
     }
     .reg-b:hover{
         color: purple;
@@ -165,8 +166,7 @@
     .btn{
         position: relative;
         left: 70%;
-        bottom: 50%;
-        /* border: 1px red solid; */
+        bottom: 60%;
         width: 20%;
         height: 50px;
     }
@@ -180,7 +180,7 @@
         padding-top: 2%;
         padding-bottom: 1%;
     }
-
+/*<!---------End----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
 body {
   background-color: rgb(248, 249, 251);
 }
