@@ -4,8 +4,14 @@
 /*<!---------Start----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
  .upper-text-1, .upper-text-2, .upper-text-3{
         text-align: center;
+        margin-bottom: 0px;
         font-size: 30px;
     }
+    .upper-text-3{
+      font-size: 20px;
+      margin-bottom: 3%;
+    }
+
     .upper-text-2{
         margin-bottom: 1%;
     }
@@ -19,13 +25,20 @@
     .main-1, .main-2, .main-3{
         width: 90%;
         display: flex;
-        margin-left: 5%;
+        margin-left: 8%;
         border-radius: 2px;
     }
-    .main-1{
-        height: 300px;
+    .development-container{
+        height: 400px;
         background-color: white;
         margin-bottom: 2%;
+        width: 100%;
+        border-top: 1px solid;
+        align-items: center;
+    }
+    .main-1{
+      
+      margin-left: 3%;
     }
     .main-2{
         height: 187px;
@@ -41,18 +54,22 @@
         border: 2px solid white;
     }
     .flex-4, .flex-5, .flex-6{
+      position: relative;
         flex-direction: column-reverse;
-        width: 28%;
+        width: 27%;
         height: 150px;
         background-color: white;
         border-radius: 2px;
     }
     .flex-5{
-        margin-left: 6%;
+        margin-left: 5.6%;
     }
     .flex-6{
-        margin-left: 6%;
+        margin-left: 5.7%;
     }
+  .flex-1{
+    margin-left: 5%
+  }
     .text-1, .text-2, .text-3{
         width: 16.7%;
         height: 170px;
@@ -88,15 +105,15 @@
         margin-left: 5%;
     }
     .get-started{
-        margin-top: 8%;
-        margin-left: 7%;
+      position:absolute;
+      text-decoration: none;
+        bottom: 20px;
+        left: 20px;
         color:blue;
         font-size: 18px;
         background-color: white;
         border: 0;
         background: none;
-        -webkit-appearance: none;
-        font: bolder;
     }
     .see-more-topics{
         border: 0;
@@ -106,6 +123,11 @@
         margin-left: 43%;
         margin-top: 3%;
         font-size: 18px;
+    }
+    .live-training{
+      background-color: white;
+      padding :  30px;
+      margin-top: 50px;
     }
     .main-4{
         width: 60%;
@@ -127,6 +149,9 @@
     }
     .rectangle-3{
         margin-top: 3%;
+    }
+    .rectangle-1 > hr, .rectangle-2 > hr, .rectangle-3 > hr{
+      width: 95%;
     }
     .loc-img-1{
         position: relative;
@@ -159,12 +184,24 @@
     }
     .register-btn{
         color: #48cae4;
+        position: absolute;
+        right: -50px;
+        text-decoration: none;
     }
     .reg-b:hover{
         color: purple;
     }
     .btn-events{
-        color: #00b4d8;
+        background-color: rgb(243, 242, 246);
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        color: skyblue;
+  
+    }
+    .btn-events:hover{
+      background-color: rgb(234, 235, 237);
+      color: rgb(61, 115, 231);
     }
     .btn{
         position: relative;
@@ -174,10 +211,10 @@
         height: 50px;
     }
     .see-more-events{
+      
         text-align: center;
-        width: 30%;
-        height: 30px;
-        background-color: #f8edeb;
+        width: 25%;
+        height: 50px;
         margin-left: 35%;
         margin-top: 5%;
         padding-top: 2%;
