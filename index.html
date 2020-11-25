@@ -14,19 +14,28 @@
   <body>
     <div class="navbar">
       <div class="garage-img float-left">
-        <img
-          src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng"
-          alt="garage-img"
-          width="100%"
-        />
+        <a href="index.html">
+          <img
+            src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng"
+            alt="garage-img"
+            width="100%"
+          />
+        </a>
       </div>
-      <a href="#" class="nav-menus float-left"> Online Courses</a>
-      <a href="#" class="nav-menus float-left"> Certification</a>
-      <a href="#" class="nav-menus float-left"> Live Training</a>
+      <a href="courses.html" class="nav-menus float-left"> Online Courses</a>
+      <a href="certification.html" class="nav-menus float-left">
+        Certification</a
+      >
+      <a href="live_page_1.html" class="nav-menus float-left"> Live Training</a>
       <a href="#" class="nav-menus float-left"> Remote Working</a>
 
-      <button class="blue-button float-right google-register-btn">Register</button>
-      <a href="#" class="nav-signin float-right"> Sign In</a>
+      <button
+        class="blue-button float-right google-register-btn"
+        onclick="window.location.href='/registration_page.html'"
+      >
+        Register
+      </button>
+      <a href="sign_in_page.html" class="nav-signin float-right"> Sign In</a>
     </div>
     <div class="free-mentoring">
       <p>
@@ -46,7 +55,12 @@
           <li>Improve your interview skills</li>
           <li>Prepare for the career you want</li>
         </ul>
-        <button class="blue-button hero-btn">Get Started</button>
+        <button
+          class="blue-button hero-btn"
+          onclick="window.location.href='/courses.html'"
+        >
+          Get Started
+        </button>
       </div>
       <div class="hero-img float-right">
         <img
@@ -64,9 +78,24 @@
         a career, or just want to try something new.
       </p>
       <div class="skills-btns">
-        <button class="skill-btn-1 float-left">Data and Tech</button>
-        <button class="skill-btn-2 float-left">Digital Marketing</button>
-        <button class="skill-btn-3 float-left">Career Development</button>
+        <button
+          class="skill-btn-1 float-left"
+          onclick="window.location.href='/courses.html'"
+        >
+          Data and Tech
+        </button>
+        <button
+          class="skill-btn-2 float-left"
+          onclick="window.location.href='/courses.html'"
+        >
+          Digital Marketing
+        </button>
+        <button
+          class="skill-btn-3 float-left"
+          onclick="window.location.href='/courses.html'"
+        >
+          Career Development
+        </button>
         <div class="clear-both"></div>
       </div>
       <div class="clear-both"></div>
@@ -80,7 +109,7 @@
           So you can be sure that you’re learning up-to-date, real-world skills
           that help you reach your goal.
         </p>
-        <a href="">Browse courses</a>
+        <a href="courses.html">Browse courses</a>
       </div>
       <div class="hero-img float-left">
         <img
@@ -180,21 +209,21 @@
         <div class="text-4">
           <h2>Seize the digital opportunity</h2>
         </div>
-        <a href="#" class="get-started reg-b">Get Started</a>
+        <a href="courses.html" class="get-started reg-b">Get Started</a>
       </div>
 
       <div class="flex-5">
         <div class="text-5">
           <h2>Explore how websites work</h2>
         </div>
-        <a href="#" class="get-started reg-b">Get Started</a>
+        <a href="courses.html" class="get-started reg-b">Get Started</a>
       </div>
 
       <div class="flex-6">
         <div class="text-6">
           <h2>Build a strong online strategy</h2>
         </div>
-        <a href="#" class="get-started reg-b">Get Started</a>
+        <a href="courses.html" class="get-started reg-b">Get Started</a>
       </div>
     </div>
 
@@ -226,25 +255,30 @@
         <div class="text-4">
           <h2>Manage your time effectively</h2>
         </div>
-        <a href="#" class="get-started reg-b">Get Started</a>
+        <a href="courses.html" class="get-started reg-b">Get Started</a>
       </div>
 
       <div class="flex-5">
         <div class="text-5">
           <h2>Create a long-term social media<br />plan</h2>
         </div>
-        <a href="#" class="get-started reg-b">Get Started</a>
+        <a href="courses.html" class="get-started reg-b">Get Started</a>
       </div>
 
       <div class="flex-6">
         <div class="text-6">
           <h2>Learn how to export and expand your bussiness internationally</h2>
         </div>
-        <a href="#" class="get-started reg-b">Get Started</a>
+        <a href="courses.html" class="get-started reg-b">Get Started</a>
       </div>
     </div>
 
-    <button class="see-more-topics">See more topics</button>
+    <button
+      class="see-more-topics"
+      onclick="window.location.href='/courses.html'"
+    >
+      See more topics
+    </button>
 
     <div class="live-training">
       <div class="upper-text-3">
@@ -367,7 +401,7 @@
         </div>
 
         <div class="see-more-events">
-          <button class="btn-events">SEE MORE EVENTS</button>
+          <button class="btn-events"  onclick="window.location.href='/live_page_1.html'">SEE MORE EVENTS</button>
         </div>
       </div>
     </div>
@@ -472,12 +506,6 @@
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-
-      <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </div>
 
