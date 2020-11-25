@@ -72,7 +72,8 @@
   }
     .text-1, .text-2, .text-3{
         width: 16.7%;
-        height: 170px;
+        height: auto;
+        /* border: 1px solid */
     }
     .text-1{
         margin-left: 1%;
@@ -114,6 +115,11 @@
         background-color: white;
         border: 0;
         background: none;
+<<<<<<< HEAD
+=======
+        -webkit-appearance: none;
+        font-weight: bold;
+>>>>>>> 6af7cea7cc1482d91789eb82f7677220b968a4e0
     }
     .see-more-topics{
         border: 0;
@@ -768,6 +774,76 @@ iframe {
 
 .start-today > p {
   font-size: 22px;
+}
+
+/* Courses List */
+.courses-heading{
+  width: auto;
+  background-color: white;
+  height: 180px;
+  padding: 50px;
+  padding-top: 80px;
+}
+.heading-content{
+  width: 60%;
+}
+.heading-content >h1{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.heading-content >p{
+  color: grey;
+  font-size:18px;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.left-column{
+  border: 1px solid;
+
+  width: 25%;
+}
+.right-column{
+  width: 70%;
+  margin-top: 80px;
+  border: 1px solid;
+}
+
+.checklist{
+  /* border: 1px solid; */
+  width: 80%;
+  margin: 50px auto;
+  padding:20px
+}
+.checklist > h4{
+  margin-bottom: 30px;
+  font-size:14px
+}
+.checklist > div > input[type="checkbox"]{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  margin-right: 5px;
+}
+.checklist > div> h5{
+  /* border: 1px solid; */
+  width: 60%;
+  font-weight: normal;
+  color: grey;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 50px;
+}
+.left-column > .checklist:nth-child(5){
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.left-column > a{
+  margin:50px;
+  color: blue;
+  text-decoration: none;
+  font-size:15px;
+  font-weight: bold;
 }
 
 /* footer */
