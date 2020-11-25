@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+  <!---------Start----------------------------------Rohan--Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->
    <div class="upper-text-1">
        <p>Simple steps for your development</p>
    </div>
@@ -85,7 +86,7 @@
     </div>
 
     </div>
-<!----------------------------------------------------------------------------------------------------------------------------->
+
     <div class="main-2">
         <div class="img-4">
             <img src="https://lh3.googleusercontent.com/iihZLBz4izhlJc9D7ncyBnkojWCNWuE81oe2SGVp8AIaa0dPESPUFf75tO1uBYVvXlMn-VBLB4GTzU64edAmt9vLQvGRIwAdcA1NUIE=h380-w654" alt="learn-online" width="320">
@@ -119,9 +120,9 @@
             <button class="get-started reg-b">Get Started</button>
         </div>
     </div>
-<!--------------------------------------------------------------------------------------------------------------------------->
+	
     <button class="see-more-topics">See more topics</button>
- <!--------------------------------------------------------------------------------------------------------------------------->
+ 
     <div class="upper-text-3">
         <h2>Face-to-face</h2>
     </div>
@@ -200,6 +201,7 @@
         <button class="btn-events">SEE MORE EVENTS</button>
     </div>
     </div>
+	<!---------End----------------------------------Rohan--Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events---------------------------------------------------------------->
     <div class="reviews">
       <div class="heading">
         <h2>How are others growing with our training</h2>
@@ -473,17 +475,19 @@
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
       }
+	  //  Start   Rohan Code //
 	  var btn_see_more_topics = document.querySelector(".see-more-topics")
-    var btn_show_more_events = document.querySelector(".btn-events")
-    function seeMoreTopics(e){
+		var btn_show_more_events = document.querySelector(".btn-events")
+		function seeMoreTopics(e){
         btn_see_more_topics.style.color = 'purple'
         btn_see_more_topics.style.border = '4px solid skyblue' 
-    }
+	}
 
     btn_show_more_events.addEventListener('click', function(){
         btn_show_more_events.style.color = 'blue'
     })
     btn_see_more_topics.addEventListener('click', seeMoreTopics)
+	//   End   Rohan Code //
     </script>
   </body>
 </html>
