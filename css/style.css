@@ -2,7 +2,149 @@
   font-family: "Open Sans", sans-serif;
 }
 /*<!---------Start----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
- .upper-text-1, .upper-text-2, .upper-text-3{
+/* Navbar */
+.navbar{
+  position: fixed;
+  left: 1px;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+} 
+.garage-img{
+  width: 18%;
+  margin: 20px;
+  margin-left: 10px;
+}
+.nav-menus{
+  margin: 22px;
+  margin-left: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: grey;
+}
+.nav-signin{
+  margin: 22px;
+  font-size: 15px;
+  text-decoration: none;
+  color:  rgb(25, 107, 217);
+  font-weight: bold;
+}
+.google-register-btn{
+  margin: 10px;
+  font-size: 15px;
+}
+/* mentoring */
+.free-mentoring{
+  width: 100%;
+  height: 70px;
+  background-color:rgb(242, 243, 245);
+  color: rgb(134, 133, 133);
+  text-align: center;
+  margin-top: 70px;
+  padding: 5px;
+}
+.free-mentoring > p{
+  margin-top: 20px;
+}
+p> a, .hero-text > a{
+  text-decoration: none;
+  color :  rgb(25, 107, 217);
+}
+
+/* Heros */
+.hero{
+  /* border: 1px solid; */
+  width: 100%;
+  background-color: white;
+  height: 510px;
+  padding: 1px;
+}
+.hero-text{
+  width: 41%;
+  /* border: 1px solid; */
+  padding: 50px;
+  padding-top: 115px;
+  height: 351px;
+  color: grey;
+}
+.hero-text > h1{
+ color: black
+}
+.hero-text > ul{
+ margin-left: -20px;
+}
+.hero-img{
+  width: 50.5%;
+  /* border: 1px solid; */
+  height: auto;
+}
+.hero-img > img{
+
+  height: 510px;
+}
+.blue-button{
+  background-color: rgb(25, 107, 217);
+  color: white;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  width: 100px;
+}
+.hero-btn{
+  margin-top: 30px;
+  font-size: 15px;
+  width: 150px;
+}
+/* Skills */
+.hero-skills{
+  background-color:rgb(242, 243, 245);
+  padding: 40px;
+  text-align: center;
+}
+
+.skills-btns{
+  margin: 10px auto;
+  width: 600px ;
+}
+.hero-skills >p{
+  color: grey;
+}
+.skill-btn-1,.skill-btn-2,.skill-btn-3{
+  width: 180px;
+  height: 50px;
+  font-size: 15px;
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color:white;
+  font-weight: bold;
+}
+.skill-btn-1{
+  color: red;
+}
+.skill-btn-2{
+  color: green;
+}
+.skill-btn-3{
+  color: rgb(25, 107, 217);
+}
+.skill-btn-1:hover{
+  color: white;
+  background-color: red;
+}
+.skill-btn-2:hover{
+  color: white;
+  background-color: green;
+}
+.skill-btn-3:hover{
+  color: white;
+  background-color: rgb(25, 107, 217);
+}
+
+
+.upper-text-1, .upper-text-2, .upper-text-3{
         text-align: center;
         margin-bottom: 0px;
         font-size: 30px;
@@ -110,22 +252,17 @@
       text-decoration: none;
         bottom: 20px;
         left: 20px;
-        color:blue;
+        color:rgb(25, 107, 217);
         font-size: 18px;
         background-color: white;
         border: 0;
         background: none;
-<<<<<<< HEAD
-=======
-        -webkit-appearance: none;
-        font-weight: bold;
->>>>>>> 6af7cea7cc1482d91789eb82f7677220b968a4e0
     }
     .see-more-topics{
         border: 0;
         background: none;
         -webkit-appearance: none;
-        color: blue;
+        color: rgb(25, 107, 217);
         margin-left: 43%;
         margin-top: 3%;
         font-size: 18px;
@@ -133,7 +270,9 @@
     .live-training{
       background-color: white;
       padding :  30px;
+      padding-bottom: 90px;
       margin-top: 50px;
+      margin-bottom: 80px;
     }
     .main-4{
         width: 60%;
@@ -189,7 +328,7 @@
         font-size: 20px;
     }
     .register-btn{
-        color: #48cae4;
+        color: rgb(25, 107, 217);
         position: absolute;
         right: -50px;
         text-decoration: none;
@@ -202,12 +341,12 @@
         width: 100%;
         height: 100%;
         cursor: pointer;
-        color: skyblue;
+        color: rgb(25, 107, 217);
   
     }
     .btn-events:hover{
       background-color: rgb(234, 235, 237);
-      color: rgb(61, 115, 231);
+      color: rgb(18, 18, 172)
     }
     .btn{
         position: relative;
