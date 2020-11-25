@@ -475,17 +475,19 @@
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
       }
+	  //  Start   Rohan Code //
 	  var btn_see_more_topics = document.querySelector(".see-more-topics")
-    var btn_show_more_events = document.querySelector(".btn-events")
-    function seeMoreTopics(e){
+		var btn_show_more_events = document.querySelector(".btn-events")
+		function seeMoreTopics(e){
         btn_see_more_topics.style.color = 'purple'
         btn_see_more_topics.style.border = '4px solid skyblue' 
-    }
+	}
 
     btn_show_more_events.addEventListener('click', function(){
         btn_show_more_events.style.color = 'blue'
     })
     btn_see_more_topics.addEventListener('click', seeMoreTopics)
+	//   End   Rohan Code //
     </script>
   </body>
 </html>

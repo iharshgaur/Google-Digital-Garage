@@ -7,7 +7,7 @@
         font-size: 30px;
     }
     .upper-text-2{
-        margin-bottom: 3%;
+        margin-bottom: 1%;
     }
     .upper-text-3-1{
         text-align: center;
@@ -24,9 +24,12 @@
     }
     .main-1{
         height: 300px;
+        background-color: white;
+        margin-bottom: 2%;
     }
     .main-2{
         height: 187px;
+        margin-top: 3%;
     }
     .main-3{
         height: 150px;
