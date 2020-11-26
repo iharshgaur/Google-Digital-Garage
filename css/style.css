@@ -1,6 +1,355 @@
 * {
   font-family: "Open Sans", sans-serif;
 } 
+
+/* Satrt Rohan Course CSS Code*/
+
+.original-1{
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.course-cards-main-by-rohan-1{
+  width: 47%;
+  height: 400px;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.course-cards-2-main-by-rohan-1{
+  width: 100%;
+  height: 400px;
+  margin-top: 1%;
+  /* display: flex;
+  flex-direction: row; */
+  margin-left: 6%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.course-cards-main-by-rohan-1:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.course-cards-2-main-by-rohan-1:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.work-from-home{
+  width: 100%;
+  height: 64px;
+ background-color: white;
+}
+.cards-img-1-by-rohan{
+  width: 100%;
+  height: 200px;
+}
+.cards-text-1-by-rohan{
+  background-color: white;
+}
+.cards-text-1-by-rohan > h3{
+  margin-left: 5%;
+ position: relative;
+ top: 5%;
+}
+.cards-text-1-by-rohan > p{
+  color: gray;
+  font-size: 12px;
+  margin-left: 5%;
+}
+.google-material-icon-img-by-rohan{
+  margin-left: 8%;
+  margin-top: 4%;
+}
+.google-material-icon-text-1{
+  font-size: 14px;
+  position: absolute;
+  left: 35%;
+  top: 108.7%;
+  color: #f9ab00;
+}
+.google-clock-img-by-rohan{
+  position: absolute;
+  left: 42%;
+  top: 111%;
+}
+.google-clock-icon-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 150%;
+  bottom: -30%;
+}
+.google-material-icon-2-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 72%;
+  bottom: -16%;
+}
+.google-clock-img-2-by-rohan{
+  position: absolute;
+  left: 79%;
+  top: 111%;
+}
+.google-clock-icon-2-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 170%;
+  bottom: -30%;
+}
+.google-material-icon-3-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 35%;
+  top: 181%;
+}
+.google-clock-img-3-by-rohan{
+  position: absolute;
+  left: 41%;
+  top: 183.3%;
+}
+.google-clock-icon-3-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 130%;
+  top: -55%;
+}
+.google-material-icon-4-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 71.5%;
+  top: 181.3%;
+}
+.google-clock-img-4-by-rohan{
+  position: absolute;
+  left: 77.5%;
+  top: 183.3%;
+}
+.google-clock-icon-4-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 130%;
+  top: -55%;
+}
+.google-material-icon-5-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 34.8%;
+  top: 253.5%;
+}
+.google-clock-img-5-by-rohan{
+  position: absolute;
+  left: 41%;
+  top: 255.5%;
+}
+.google-clock-icon-5-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 121.5%;
+  bottom: -36%;
+}
+.google-material-icon-6-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 71.5%;
+  top: 253.5%;
+}
+.google-clock-img-6-by-rohan{
+  position: absolute;
+  left: 78%;
+  top: 255.5%;
+}
+.google-clock-icon-6-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 140%;
+  bottom: -36%;
+}
+.google-material-icon-7-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 34.5%;
+  top: 325%;
+}
+.google-clock-img-7-by-rohan{
+  position: absolute;
+  left: 41%;
+  top: 327%;
+}
+.google-clock-icon-7-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 150%;
+  bottom: -36%;
+}
+.google-material-icon-8-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 71.5%;
+  top: 329%;
+}
+.google-clock-img-8-by-rohan{
+  position: absolute;
+  left: 78%;
+  top: 331%;
+}
+.google-clock-icon-8-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 150%;
+  bottom: -36%;
+}
+.google-material-icon-9-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 35%;
+  top: 397%;
+}
+.google-clock-img-9-by-rohan{
+  position: absolute;
+  left: 42%;
+  top: 399%;
+}
+.google-clock-icon-9-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 150%;
+  bottom: -36%;
+}
+.google-material-icon-10-text-1{
+  font-size: 14px;
+  position: absolute;
+  color: #f9ab00;
+  left: 71.5%;
+  top: 401%;
+}
+.google-clock-img-10-by-rohan{
+  position: absolute;
+  left: 79%;
+  top: 403%;
+}
+.google-clock-icon-10-text-1{
+  color: #f9ab00;
+  font-size: 14px;
+  position: absolute;
+  left: 150%;
+  bottom: -36%;
+}
+.load-more-by-rohan{
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  margin-left: 40%;
+}
+.load-more-by-rohan:hover{
+  background-color: lightgray;
+  color: blue;
+}
+.load-more-btn-imp{
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 15px;
+  font: bolder;
+}
+.load-more-btn-imp:hover{
+  color: blue;
+  background-color: lightgray;
+}
+.right-column{
+  width: 70%;
+  height: 2000px;
+  margin-top: 80px;
+  /* border: 1px solid red; */
+}
+/* End Rohan Course CSS Code*/
+
+/*Start Harsh Course CSS Code*/
+
+.courses-heading{
+  width: auto;
+  background-color: white;
+  height: 180px;
+  padding: 50px;
+  padding-top: 80px;
+}
+.heading-content{
+  width: 60%;
+}
+.heading-content >h1{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.heading-content >p{
+  color: grey;
+  font-size:18px;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.left-column{
+  border: 1px solid;
+
+  width: 25%;
+}
+
+.checklist{
+  /* border: 1px solid; */
+  width: 80%;
+  margin: 50px auto;
+  padding:20px
+}
+.checklist > h4{
+  margin-bottom: 30px;
+  font-size:14px
+}
+.checklist > div > input[type="checkbox"]{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  margin-right: 5px;
+}
+.checklist > div> h5{
+  /* border: 1px solid; */
+  width: 60%;
+  font-weight: normal;
+  color: grey;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 50px;
+}
+.left-column > .checklist:nth-child(5){
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.left-column > a{
+  margin:50px;
+  color: blue;
+  text-decoration: none;
+  font-size:15px;
+  font-weight: bold;
+}
+
+/* End Harsh Course CSS Code*/
+
 /*<!---------Start----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
  .upper-text-1, .upper-text-2, .upper-text-3{
         text-align: center;
