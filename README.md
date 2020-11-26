@@ -5,7 +5,7 @@ This repository is for developing the Google Digital Garage clone.
 
 
 
-# Google Digital Garage
+# What is Google Digital Garage?
 Google Digital Garage is a Grow with Google programme that provides free training and tools to help grow your career or business in the UK. Since 2015, the Google Digital Garage has visited more than 500 locations across the UK, and trained more than 400,000 people.
 
 ## Tech Stacks Used:
