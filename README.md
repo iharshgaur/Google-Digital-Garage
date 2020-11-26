@@ -57,15 +57,15 @@ In today's environment, more employees, educators, and students are working remo
 
  👤 **MD Amanullah**
 
-- Github: [@vchandu111](https://github.com/vchandu111)
-- Linkedin: [Chandra Sekhar Visarapu
+- Github: [MD Amanullah](https://github.com/vchandu111)
+- Linkedin: [MD Amanullah
 ](www.linkedin.com/in/chandra-sekhar-visarapu-6b23111a8)
 
 
 👤 **Harsh Gaur**
 
 - Github: [iharshgaur](https://github.com/iharshgaur)
-- Linkedin: [Akhila G](https://www.linkedin.com/in/akhila-g-a82bb385)
+- Linkedin: [Harsh Gaur](https://www.linkedin.com/in/harsh-gaur-099849142/)
 
 👤 **Rohan Ranjan**
 
