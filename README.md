@@ -57,9 +57,9 @@ In today's environment, more employees, educators, and students are working remo
 
  👤 **MD Amanullah**
 
-- Github: [MD Amanullah](https://github.com/vchandu111)
+- Github: [MD Amanullah](https://github.com/Amanullah21)
 - Linkedin: [MD Amanullah
-](www.linkedin.com/in/chandra-sekhar-visarapu-6b23111a8)
+](https://www.linkedin.com/mwlite/in/md-amanullah-0239691798)
 
 
 👤 **Harsh Gaur**
