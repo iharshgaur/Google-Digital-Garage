@@ -43,7 +43,22 @@
 .menu-dropdown > option:nth-child(1) {
   display: none;
 }
-
+.blue-button {
+  background-color: rgb(25, 107, 217);
+  color: white;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  width: 100px;
+}
+.blue-button:hover {
+  cursor: pointer;
+  background-color: rgb(26, 77, 166);
+}
+.google-register-btn {
+  margin: 10px;
+  font-size: 15px;
+}
 /* 
 css  of pic  google garage */
 .garage_img{

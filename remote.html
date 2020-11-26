@@ -9,7 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css2/style.css" />
+
     <style></style>
 
     <body>
@@ -42,6 +44,7 @@
           </select>
           <button
             class="blue-button float-right google-register-btn"
+            style.href="css/style.css"
             onclick="window.location.href='/registration_page.html'"
           >
             Register
@@ -237,6 +240,34 @@
           <hr />
         </div>
       </div>
+      <script>
+        //for navbar scroll
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.querySelector(".navbar").style.top = "0";
+          } else {
+            document.querySelector(".navbar").style.top = "-80px";
+          }
+          prevScrollpos = currentScrollPos;
+        };
+        // for collapsible dropdowns
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+      </script>
     </body>
   </head>
 </html>
