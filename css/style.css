@@ -1,10 +1,10 @@
 * {
   font-family: "Open Sans", sans-serif;
-} 
+}
 
 /* Satrt Rohan Course CSS Code*/
 
-.original-1{
+.original-1 {
   width: 100%;
   height: 480px;
   display: flex;
@@ -12,269 +12,270 @@
   background-color: white;
 }
 
-.course-cards-main-by-rohan-1{
+.course-cards-main-by-rohan-1 {
   width: 47%;
   height: 400px;
   margin-top: 1%;
   display: flex;
   flex-direction: row;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.course-cards-2-main-by-rohan-1{
+.course-cards-2-main-by-rohan-1 {
   width: 100%;
   height: 400px;
   margin-top: 1%;
   /* display: flex;
   flex-direction: row; */
   margin-left: 6%;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.course-cards-main-by-rohan-1:hover{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.course-cards-main-by-rohan-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.course-cards-2-main-by-rohan-1:hover{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.course-cards-2-main-by-rohan-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.work-from-home{
+.work-from-home {
   width: 100%;
   height: 64px;
- background-color: white;
+  background-color: white;
 }
-.cards-img-1-by-rohan{
+.cards-img-1-by-rohan {
   width: 100%;
   height: 200px;
 }
-.cards-text-1-by-rohan{
+.cards-text-1-by-rohan {
   background-color: white;
 }
-.cards-text-1-by-rohan > h3{
+.cards-text-1-by-rohan > h3 {
   margin-left: 5%;
- position: relative;
- top: 5%;
+  position: relative;
+  top: 5%;
 }
-.cards-text-1-by-rohan > p{
+.cards-text-1-by-rohan > p {
   color: gray;
   font-size: 12px;
   margin-left: 5%;
 }
-.google-material-icon-img-by-rohan{
+.google-material-icon-img-by-rohan {
   margin-left: 8%;
   margin-top: 4%;
 }
-.google-material-icon-text-1{
+.google-material-icon-text-1 {
   font-size: 14px;
   position: absolute;
   left: 35%;
-  top: 108.7%;
+  top: 115%;
   color: #f9ab00;
 }
-.google-clock-img-by-rohan{
+.google-clock-img-by-rohan {
   position: absolute;
   left: 42%;
-  top: 111%;
+  top: 117%;
 }
-.google-clock-icon-text-1{
+.google-clock-icon-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 150%;
   bottom: -30%;
 }
-.google-material-icon-2-text-1{
+.google-material-icon-2-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
-  left: 72%;
-  bottom: -16%;
+  left: 70.5%;
+  bottom: -22.5%;
 }
-.google-clock-img-2-by-rohan{
+.google-clock-img-2-by-rohan {
   position: absolute;
-  left: 79%;
-  top: 111%;
+  left: 78%;
+  top: 117%;
 }
-.google-clock-icon-2-text-1{
+.google-clock-icon-2-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 170%;
-  bottom: -30%;
+  top: -50%;
 }
-.google-material-icon-3-text-1{
+.google-material-icon-3-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
   left: 35%;
-  top: 181%;
+  top: 190%;
 }
-.google-clock-img-3-by-rohan{
+.google-clock-img-3-by-rohan {
   position: absolute;
-  left: 41%;
-  top: 183.3%;
+  left: 42%;
+  top: 192.5%;
 }
-.google-clock-icon-3-text-1{
+.google-clock-icon-3-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
-  left: 130%;
+  left: 124%;
   top: -55%;
 }
-.google-material-icon-4-text-1{
+.google-material-icon-4-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
-  left: 71.5%;
-  top: 181.3%;
+  left: 70%;
+  top: 190.5%;
 }
-.google-clock-img-4-by-rohan{
+.google-clock-img-4-by-rohan {
   position: absolute;
   left: 77.5%;
-  top: 183.3%;
+  top: 192.5%;
 }
-.google-clock-icon-4-text-1{
+.google-clock-icon-4-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 130%;
   top: -55%;
 }
-.google-material-icon-5-text-1{
+.google-material-icon-5-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
   left: 34.8%;
-  top: 253.5%;
+  top: 266%;
 }
-.google-clock-img-5-by-rohan{
+.google-clock-img-5-by-rohan {
   position: absolute;
   left: 41%;
-  top: 255.5%;
+  top: 268%;
 }
-.google-clock-icon-5-text-1{
+.google-clock-icon-5-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 121.5%;
   bottom: -36%;
 }
-.google-material-icon-6-text-1{
+.google-material-icon-6-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
-  left: 71.5%;
-  top: 253.5%;
+  left: 70.5%;
+  top: 266.5%;
 }
-.google-clock-img-6-by-rohan{
+.google-clock-img-6-by-rohan {
   position: absolute;
   left: 78%;
-  top: 255.5%;
+  top: 268.5%;
 }
-.google-clock-icon-6-text-1{
+.google-clock-icon-6-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 140%;
   bottom: -36%;
 }
-.google-material-icon-7-text-1{
+.google-material-icon-7-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
-  left: 34.5%;
-  top: 325%;
+  left: 34.8%;
+  top: 341.5%;
 }
-.google-clock-img-7-by-rohan{
+.google-clock-img-7-by-rohan {
   position: absolute;
   left: 41%;
-  top: 327%;
+  top: 343.5%;
 }
-.google-clock-icon-7-text-1{
+.google-clock-icon-7-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 150%;
   bottom: -36%;
 }
-.google-material-icon-8-text-1{
+.google-material-icon-8-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
-  left: 71.5%;
-  top: 329%;
+  left: 70.5%;
+  top: 345.6%;
 }
-.google-clock-img-8-by-rohan{
+.google-clock-img-8-by-rohan {
   position: absolute;
   left: 78%;
-  top: 331%;
+  top: 347.5%;
 }
-.google-clock-icon-8-text-1{
+.google-clock-icon-8-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 150%;
   bottom: -36%;
 }
-.google-material-icon-9-text-1{
+.google-material-icon-9-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
   left: 35%;
-  top: 397%;
+  top: 417%;
 }
-.google-clock-img-9-by-rohan{
+.google-clock-img-9-by-rohan {
   position: absolute;
   left: 42%;
-  top: 399%;
+  top: 419%;
 }
-.google-clock-icon-9-text-1{
+.google-clock-icon-9-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
   left: 150%;
   bottom: -36%;
 }
-.google-material-icon-10-text-1{
+.google-material-icon-10-text-1 {
   font-size: 14px;
   position: absolute;
   color: #f9ab00;
-  left: 71.5%;
-  top: 401%;
+  left: 70.5%;
+  top: 421%;
 }
-.google-clock-img-10-by-rohan{
+.google-clock-img-10-by-rohan {
   position: absolute;
   left: 79%;
-  top: 403%;
+  top: 423%;
 }
-.google-clock-icon-10-text-1{
+.google-clock-icon-10-text-1 {
   color: #f9ab00;
   font-size: 14px;
   position: absolute;
-  left: 150%;
-  bottom: -36%;
+  left: 110%;
+  bottom: -26%;
 }
-.load-more-by-rohan{
+.load-more-by-rohan {
   width: 20%;
   height: 30px;
   text-align: center;
   margin-left: 40%;
 }
-.load-more-by-rohan:hover{
+.load-more-by-rohan:hover {
   background-color: lightgray;
   color: blue;
 }
-.load-more-btn-imp{
+.load-more-btn-imp {
   border: 0;
   background: none;
   -webkit-appearance: none;
   font-size: 15px;
-  font: bolder;
+  
+  margin-bottom: 500px;
 }
-.load-more-btn-imp:hover{
+.load-more-btn-imp:hover {
   color: blue;
   background-color: lightgray;
 }
-.right-column{
+.right-column {
   width: 70%;
   height: 2000px;
   margin-top: 80px;
@@ -284,50 +285,48 @@
 
 /*Start Harsh Course CSS Code*/
 
-.courses-heading{
+.courses-heading {
   width: auto;
   background-color: white;
   height: 180px;
   padding: 50px;
   padding-top: 80px;
 }
-.heading-content{
+.heading-content {
   width: 60%;
 }
-.heading-content >h1{
+.heading-content > h1 {
   font-size: 40px;
   margin-bottom: 0px;
 }
-.heading-content >p{
+.heading-content > p {
   color: grey;
-  font-size:18px;
+  font-size: 18px;
   margin-top: 5px;
   text-align: justify;
 }
 
-.left-column{
-  border: 1px solid;
-
+.left-column {
   width: 25%;
 }
 
-.checklist{
+.checklist {
   /* border: 1px solid; */
   width: 80%;
   margin: 50px auto;
-  padding:20px
+  padding: 20px;
 }
-.checklist > h4{
+.checklist > h4 {
   margin-bottom: 30px;
-  font-size:14px
+  font-size: 14px;
 }
-.checklist > div > input[type="checkbox"]{
+.checklist > div > input[type="checkbox"] {
   width: 25px;
   height: 25px;
   margin: 10px;
   margin-right: 5px;
 }
-.checklist > div> h5{
+.checklist > div > h5 {
   /* border: 1px solid; */
   width: 60%;
   font-weight: normal;
@@ -336,781 +335,794 @@
   margin: 10px;
   margin-right: 50px;
 }
-.left-column > .checklist:nth-child(5){
+.left-column > .checklist:nth-child(5) {
   margin-bottom: 10px;
   border-bottom: 1px solid;
 }
-.left-column > a{
-  margin:50px;
+.left-column > a {
+  margin: 50px;
   color: blue;
   text-decoration: none;
-  font-size:15px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 /* End Harsh Course CSS Code*/
 
 /*<!---------Start----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
- .upper-text-1, .upper-text-2, .upper-text-3{
-        text-align: center;
-        margin-bottom: 0px;
-        font-size: 30px;
-    }
-    .upper-text-3{
-      font-size: 20px;
-      margin-bottom: 3%;
-    }
+.upper-text-1,
+.upper-text-2,
+.upper-text-3 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.upper-text-3 {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
 
-    .upper-text-2{
-        margin-bottom: 1%;
-    }
-    .upper-text-3-1{
-        text-align: center;
-        font-size: 17px;
-        color: grey;
-        position: relative;
-        bottom: 30px;
-    }
-    .main-1, .main-2, .main-3{
-        width: 90%;
-        display: flex;
-        margin-left: 8%;
-        border-radius: 2px;
-    }
-    .development-container{
-        height: 400px;
-        background-color: white;
-        margin-bottom: 2%;
-        width: 100%;
-        border-top: 1px solid;
-        align-items: center;
-    }
-    .main-1{
-      
-      margin-left: 3%;
-    }
-    .main-2{
-        height: 187px;
-        margin-top: 3%;
-    }
-    .main-3{
-        height: 150px;
-    }
-    .flex-1, .flex2, .flex-3{
-        background-color: white;
-        border-radius: 2px;
-        flex-direction: column-reverse;
-        border: 2px solid white;
-    }
-    .flex-4, .flex-5, .flex-6{
-      position: relative;
-        flex-direction: column-reverse;
-        width: 27%;
-        height: 150px;
-        background-color: white;
-        border-radius: 2px;
-    }
-    .flex-5{
-        margin-left: 5.6%;
-    }
-    .flex-6{
-        margin-left: 5.7%;
-    }
-  .flex-1{
-    margin-left: 5%
-  }
-    .text-1, .text-2, .text-3{
-        width: 16.7%;
-        height: 170px;
-    }
-    .text-1{
-        margin-left: 1%;
-    }
-    .text-2{
-        margin-left: 8%;
-    }
-    .text-3{
-        margin-left: 10%;
-    }
-    .details{
-        color: grey;
-        font-size: 17px;
-        line-height: 1.4;
-    }
-    .img-2{
-        margin-left: 90%;
-    }
-    .img-3{
-        margin-left: 110%;
-    }
-    .img-5{
-        margin-left: 6%;
-    }
-    .img-6{
-        margin-left: 6%;
-    }
-    .text-4, .text-5, .text-6{
-        font-size: 12px;
-        margin-left: 5%;
-    }
-    .get-started{
-      position:absolute;
-      text-decoration: none;
-        bottom: 20px;
-        left: 20px;
-        color:blue;
-        font-size: 18px;
-        background-color: white;
-        border: 0;
-        background: none;
-    }
-    .see-more-topics{
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        color: blue;
-        margin-left: 43%;
-        margin-top: 3%;
-        font-size: 18px;
-    }
-    .live-training{
-      background-color: white;
-      padding :  30px;
-      margin-top: 50px;
-    }
-    .main-4{
-        width: 60%;
-        height: 900px;
-        margin-left: 22%;
-    }
-    .rectangle-1, .rectangle-2, .rectangle-3{
-        width: 98%;
-        height: 250px;
-        background-color: white;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    }
-    .rect-text-1{
-        margin-left: 3%;
-        border: 4px solid white;
-    }
-    .rectangle-2{
-        margin-top: 3%;
-    }
-    .rectangle-3{
-        margin-top: 3%;
-    }
-    .rectangle-1 > hr, .rectangle-2 > hr, .rectangle-3 > hr{
-      width: 95%;
-    }
-    .loc-img-1{
-        position: relative;
-        left: 2%;
-        top: 4%; 
-    }
-    .loc-text-1{
-        position: relative;
-        bottom: 15%;
-        left: 8%;
-        color: grey;
-        font-size: 18px;
-    }
-    .cal-img-1{
-        position: relative;
-        bottom: 20%;
-        left: 2%;
-    }
-    .cal-text-1{
-        position: relative;
-        bottom: 40%;
-        left: 8%;
-        color: grey;
-    }
-    .register-btn, .btn-events{
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 20px;
-    }
-    .register-btn{
-        color: #48cae4;
-        position: absolute;
-        right: -50px;
-        text-decoration: none;
-    }
-    .reg-b:hover{
-        color: purple;
-    }
-    .btn-events{
-        background-color: rgb(243, 242, 246);
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-        color: skyblue;
-  
-    }
-    .btn-events:hover{
-      background-color: rgb(234, 235, 237);
-      color: rgb(61, 115, 231);
-    }
-    .btn{
-        position: relative;
-        left: 70%;
-        bottom: 60%;
-        width: 20%;
-        height: 50px;
-    }
-    .see-more-events{
-      
-        text-align: center;
-        width: 25%;
-        height: 50px;
-        margin-left: 35%;
-        margin-top: 5%;
-        padding-top: 2%;
-        padding-bottom: 1%;
-    }
+.upper-text-2 {
+  margin-bottom: 1%;
+}
+.upper-text-3-1 {
+  text-align: center;
+  font-size: 17px;
+  color: grey;
+  position: relative;
+  bottom: 30px;
+}
+.main-1,
+.main-2,
+.main-3 {
+  width: 90%;
+  display: flex;
+  margin-left: 8%;
+  border-radius: 2px;
+}
+.development-container {
+  height: 400px;
+  background-color: white;
+  margin-bottom: 2%;
+  width: 100%;
+  border-top: 1px solid;
+  align-items: center;
+}
+.main-1 {
+  margin-left: 3%;
+}
+.main-2 {
+  height: 187px;
+  margin-top: 3%;
+}
+.main-3 {
+  height: 150px;
+}
+.flex-1,
+.flex2,
+.flex-3 {
+  background-color: white;
+  border-radius: 2px;
+  flex-direction: column-reverse;
+  border: 2px solid white;
+}
+.flex-4,
+.flex-5,
+.flex-6 {
+  position: relative;
+  flex-direction: column-reverse;
+  width: 27%;
+  height: 150px;
+  background-color: white;
+  border-radius: 2px;
+}
+.flex-5 {
+  margin-left: 5.6%;
+}
+.flex-6 {
+  margin-left: 5.7%;
+}
+.flex-1 {
+  margin-left: 5%;
+}
+.text-1,
+.text-2,
+.text-3 {
+  width: 16.7%;
+  height: 170px;
+}
+.text-1 {
+  margin-left: 1%;
+}
+.text-2 {
+  margin-left: 8%;
+}
+.text-3 {
+  margin-left: 10%;
+}
+.details {
+  color: grey;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.img-2 {
+  margin-left: 90%;
+}
+.img-3 {
+  margin-left: 110%;
+}
+.img-5 {
+  margin-left: 6%;
+}
+.img-6 {
+  margin-left: 6%;
+}
+.text-4,
+.text-5,
+.text-6 {
+  font-size: 12px;
+  margin-left: 5%;
+}
+.get-started {
+  position: absolute;
+  text-decoration: none;
+  bottom: 20px;
+  left: 20px;
+  color: blue;
+  font-size: 18px;
+  background-color: white;
+  border: 0;
+  background: none;
+}
+.see-more-topics {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  color: blue;
+  margin-left: 43%;
+  margin-top: 3%;
+  font-size: 18px;
+}
+.live-training {
+  background-color: white;
+  padding: 30px;
+  margin-top: 50px;
+}
+.main-4 {
+  width: 60%;
+  height: 900px;
+  margin-left: 22%;
+}
+.rectangle-1,
+.rectangle-2,
+.rectangle-3 {
+  width: 98%;
+  height: 250px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.rect-text-1 {
+  margin-left: 3%;
+  border: 4px solid white;
+}
+.rectangle-2 {
+  margin-top: 3%;
+}
+.rectangle-3 {
+  margin-top: 3%;
+}
+.rectangle-1 > hr,
+.rectangle-2 > hr,
+.rectangle-3 > hr {
+  width: 95%;
+}
+.loc-img-1 {
+  position: relative;
+  left: 2%;
+  top: 4%;
+}
+.loc-text-1 {
+  position: relative;
+  bottom: 15%;
+  left: 8%;
+  color: grey;
+  font-size: 18px;
+}
+.cal-img-1 {
+  position: relative;
+  bottom: 20%;
+  left: 2%;
+}
+.cal-text-1 {
+  position: relative;
+  bottom: 40%;
+  left: 8%;
+  color: grey;
+}
+.register-btn,
+.btn-events {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 20px;
+}
+.register-btn {
+  color: #48cae4;
+  position: absolute;
+  right: -50px;
+  text-decoration: none;
+}
+.reg-b:hover {
+  color: purple;
+}
+.btn-events {
+  background-color: rgb(243, 242, 246);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: skyblue;
+}
+.btn-events:hover {
+  background-color: rgb(234, 235, 237);
+  color: rgb(61, 115, 231);
+}
+.btn {
+  position: relative;
+  left: 70%;
+  bottom: 60%;
+  width: 20%;
+  height: 50px;
+}
+.see-more-events {
+  text-align: center;
+  width: 25%;
+  height: 50px;
+  margin-left: 35%;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
 /*<!---------End----------------------------------Rohan-Code--Front--Page--Part--2-------------------------Simple steps for your development-----TO----------------Show More Events--------------------------------------------------------------->*/
 
 /*<!---------Start------------------------------------------------------------------------------------------------------------------------Rohan-Code--Live--Page--1-------------------------------------------------------------------------------------------->*/
 
-.live-1-main-1{
-        width: 100%;
-        height: 200px;
-        background-color: white;
-        border: 2px solid white;
-    }
-    .live-1-box-upper{
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    }
-    .live-1-upper-text{
-        width: 45%;
-        height: 150px;
-        margin-top: 2%;
-        margin-left: 8%;
-    }
-    .live-1-p{
-        color: grey;
-    }
-    .live-1-bar{
-        width: 100%;
-        height: 60px;
-        margin-top: 1%;
-        background-color: white;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-    .live-1-bar-show-events{
-        text-align: center;
-        position: relative;
-        top: 25%;
-    }
-    .live-1-bar-all-loc{
-        width: 8%;
-        height: 40px;
-        position: relative;
-        left: 56%;
-        bottom: 55%;
-    }
-    .live-1-bar-all-loc:hover{
-        background-color: lightgray;
-    }
-    .live-1-select{
-        border: 0;
-        background: none;
-        -webkit-appearance:none;
-        font-size: 16px;
-        position: relative;
-        color: #1a73e8;
-        top: 20%;
-    }
-    .live-1-main-2{
-        width: 75%;
-        height: 4500px;
-        margin-top: 2%;
-        margin-left: 15%;
-    }
-    .live-1-react-1{
-        width: 95%;
-        margin-top: 2%;
-        height: 270px;
-        border: 1px solid white;
-        margin-left: 2%;
-    }
-    .live-1-react-1-text{
-        width: 94%;
-        height: 160px;
-        border: 1px solid white;
-        margin-top: 1%;
-        margin-left: 3%;
-    }
-    .live-1-react-1-p{
-        line-height: 1.8;
-        color: gray;
-    }
-    .live-1-loc-img-1{
-        position: relative;
-        left: 2%;
-        bottom: 3%;
-    }
-    .live-1-loc-text-1{
-        position: relative;
-        bottom: 21%;
-        left: 8%;
-        color: grey;
-        font-size: 18px;
-    }
-    .live-1-cal-img-1{
-        position: relative;
-        bottom: 20%;
-        left: 2%;
-    }
-    .live-1-cal-text-1{
-        position: relative;
-        bottom: 36%;
-        left: 8%;
-        color: grey;
-    }
-    .live-1-register-btn{
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 20px;
-        position: relative;
-        top: 20%;
-        left: 18%;
-        color: white;
-    }
-    .live-1-btn{
-        position: relative;
-        left: 75%;
-        bottom: 63%;
-        width: 18%;
-        height: 50px;
-        background-color: #1a73e8;
-        border-radius: 8px;
-    }
-    .live-1-btn:hover{
-        background-color: purple;
-    }
-    .live-button-move-1-to-2{
-        width: 15%;
-        height: 30px;
-        /* border: 1px solid red; */
-        margin-top: 5%;
-        margin-left: 45%;
-    }
-    .live-1-move-btn-1{
-        color: blue;
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 17px;
-    }
-    .live-1-move-btn-2{
-        color: blue;
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 17px;
-    }
-    .live-1-move-arrow {
-        border: solid blue;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-        position: relative;
-        bottom: 25%;
-    }
+.live-1-main-1 {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 2px solid white;
+}
+.live-1-box-upper {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.live-1-upper-text {
+  width: 45%;
+  height: 150px;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+.live-1-p {
+  color: grey;
+}
+.live-1-bar {
+  width: 100%;
+  height: 60px;
+  margin-top: 1%;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.live-1-bar-show-events {
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.live-1-bar-all-loc {
+  width: 8%;
+  height: 40px;
+  position: relative;
+  left: 56%;
+  bottom: 55%;
+}
+.live-1-bar-all-loc:hover {
+  background-color: lightgray;
+}
+.live-1-select {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  position: relative;
+  color: #1a73e8;
+  top: 20%;
+}
+.live-1-main-2 {
+  width: 75%;
+  height: 4500px;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+.live-1-react-1 {
+  width: 95%;
+  margin-top: 2%;
+  height: 270px;
+  border: 1px solid white;
+  margin-left: 2%;
+}
+.live-1-react-1-text {
+  width: 94%;
+  height: 160px;
+  border: 1px solid white;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.live-1-react-1-p {
+  line-height: 1.8;
+  color: gray;
+}
+.live-1-loc-img-1 {
+  position: relative;
+  left: 2%;
+  bottom: 3%;
+}
+.live-1-loc-text-1 {
+  position: relative;
+  bottom: 21%;
+  left: 8%;
+  color: grey;
+  font-size: 18px;
+}
+.live-1-cal-img-1 {
+  position: relative;
+  bottom: 20%;
+  left: 2%;
+}
+.live-1-cal-text-1 {
+  position: relative;
+  bottom: 36%;
+  left: 8%;
+  color: grey;
+}
+.live-1-register-btn {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 20px;
+  position: relative;
+  top: 20%;
+  left: 18%;
+  color: white;
+}
+.live-1-btn {
+  position: relative;
+  left: 75%;
+  bottom: 63%;
+  width: 18%;
+  height: 50px;
+  background-color: #1a73e8;
+  border-radius: 8px;
+}
+.live-1-btn:hover {
+  background-color: purple;
+}
+.live-button-move-1-to-2 {
+  width: 15%;
+  height: 30px;
+  /* border: 1px solid red; */
+  margin-top: 5%;
+  margin-left: 45%;
+}
+.live-1-move-btn-1 {
+  color: blue;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 17px;
+}
+.live-1-move-btn-2 {
+  color: blue;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 17px;
+}
+.live-1-move-arrow {
+  border: solid blue;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  bottom: 25%;
+}
 
-    .live-1-move-right {
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-    }
-    .live-1-link{
-        text-decoration: none;
-    }
+.live-1-move-right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.live-1-link {
+  text-decoration: none;
+}
 
 /*<!---------End------------------------------------------------------------------------------------------------------------------------Rohan-Code--Live--Page--1-------------------------------------------------------------------------------------------->*/
 
 /*<!---------Start------------------------------------------------------------------------------------------------------------------------Rohan-Code--Live--Page--2--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Rohan-Code--Live--Page--1-------------------------------------------------------------------------------------------->*/
 
-.live-2-main-1{
-        width: 100%;
-        height: 200px;
-        background-color: white;
-        border: 2px solid white;
-    }
-    .live-2-box-upper{
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    }
-    .live-2-upper-text{
-        width: 45%;
-        height: 150px;
-        margin-top: 2%;
-        margin-left: 8%;
-    }
-    .live-2-p{
-        color: grey;
-    }
-    .live-2-bar{
-        width: 100%;
-        height: 60px;
-        margin-top: 1%;
-        background-color: white;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-    .live-2-bar-show-events{
-        text-align: center;
-        position: relative;
-        top: 25%;
-    }
-    .live-2-bar-all-loc{
-        width: 8%;
-        height: 40px;
-        position: relative;
-        left: 56%;
-        bottom: 55%;
-    }
-    .live-2-select{
-        border: 0;
-        background: none;
-        -webkit-appearance:none;
-        font-size: 16px;
-        position: relative;
-        color: #1a73e8;
-        top: 20%;
-    }
-    .live-2-bar-all-loc:hover{
-        background-color: lightgray;
-    }
-    .live-2-main-2{
-        width: 75%;
-        height: 1900px;
-        margin-top: 2%;
-        margin-left: 15%;
-    }
-    .live-2-react-1{
-        width: 95%;
-        margin-top: 2%;
-        height: 270px;
-        border: 1px solid white;
-        margin-left: 2%;
-    }
-    .live-2-react-1-text{
-        width: 94%;
-        height: 160px;
-        border: 1px solid white;
-        margin-top: 1%;
-        margin-left: 3%;
-    }
-    .live-2-react-1-p{
-        line-height: 1.8;
-        color: gray;
-    }
-    .live-2-loc-img-1{
-        position: relative;
-        left: 2%;
-        bottom: 3%;
-    }
-    .live-2-loc-text-1{
-        position: relative;
-        bottom: 21%;
-        left: 8%;
-        color: grey;
-        font-size: 18px;
-    }
-    .live-2-cal-img-1{
-        position: relative;
-        bottom: 20%;
-        left: 2%;
-    }
-    .live-2-cal-text-1{
-        position: relative;
-        bottom: 36%;
-        left: 8%;
-        color: grey;
-    }
-    .live-2-register-btn{
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 20px;
-        position: relative;
-        top: 20%;
-        left: 18%;
-        color: white;
-    }
-    .live-2-btn{
-        position: relative;
-        left: 75%;
-        bottom: 63%;
-        width: 18%;
-        height: 50px;
-        background-color: blue;
-        border-radius: 8px;
-    }
-    .live-2-btn:hover{
-        background-color: purple;
-    }
-    .live-button-move-1-to-2{
-        width: 15%;
-        height: 30px;
-        /* border: 1px solid red; */
-        margin-top: 5%;
-        margin-left: 45%;
-    }
-    .live-2-move-btn-1{
-        color: blue;
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 17px;
-    }
-    .live-2-move-btn-2{
-        color: blue;
-        border: 0;
-        background: none;
-        -webkit-appearance: none;
-        font-size: 17px;
-    }
-    #live-2-move-arrow {
-        border: solid blue;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-        position: relative;
-        bottom: 25%;
-    }
+.live-2-main-1 {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 2px solid white;
+}
+.live-2-box-upper {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.live-2-upper-text {
+  width: 45%;
+  height: 150px;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+.live-2-p {
+  color: grey;
+}
+.live-2-bar {
+  width: 100%;
+  height: 60px;
+  margin-top: 1%;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.live-2-bar-show-events {
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.live-2-bar-all-loc {
+  width: 8%;
+  height: 40px;
+  position: relative;
+  left: 56%;
+  bottom: 55%;
+}
+.live-2-select {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  position: relative;
+  color: #1a73e8;
+  top: 20%;
+}
+.live-2-bar-all-loc:hover {
+  background-color: lightgray;
+}
+.live-2-main-2 {
+  width: 75%;
+  height: 1900px;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+.live-2-react-1 {
+  width: 95%;
+  margin-top: 2%;
+  height: 270px;
+  border: 1px solid white;
+  margin-left: 2%;
+}
+.live-2-react-1-text {
+  width: 94%;
+  height: 160px;
+  border: 1px solid white;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.live-2-react-1-p {
+  line-height: 1.8;
+  color: gray;
+}
+.live-2-loc-img-1 {
+  position: relative;
+  left: 2%;
+  bottom: 3%;
+}
+.live-2-loc-text-1 {
+  position: relative;
+  bottom: 21%;
+  left: 8%;
+  color: grey;
+  font-size: 18px;
+}
+.live-2-cal-img-1 {
+  position: relative;
+  bottom: 20%;
+  left: 2%;
+}
+.live-2-cal-text-1 {
+  position: relative;
+  bottom: 36%;
+  left: 8%;
+  color: grey;
+}
+.live-2-register-btn {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 20px;
+  position: relative;
+  top: 20%;
+  left: 18%;
+  color: white;
+}
+.live-2-btn {
+  position: relative;
+  left: 75%;
+  bottom: 63%;
+  width: 18%;
+  height: 50px;
+  background-color: blue;
+  border-radius: 8px;
+}
+.live-2-btn:hover {
+  background-color: purple;
+}
+.live-button-move-1-to-2 {
+  width: 15%;
+  height: 30px;
+  /* border: 1px solid red; */
+  margin-top: 5%;
+  margin-left: 45%;
+}
+.live-2-move-btn-1 {
+  color: blue;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 17px;
+}
+.live-2-move-btn-2 {
+  color: blue;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 17px;
+}
+#live-2-move-arrow {
+  border: solid blue;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  bottom: 25%;
+}
 
-    .live-2-move-left {
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
-    }
-    .live-2-link{
-        text-decoration: none;
-    }
+.live-2-move-left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.live-2-link {
+  text-decoration: none;
+}
 
 /*<!---------End------------------------------------------------------------------------------------------------------------------------Rohan-Code--Live--Page--2-------------------------------------------------------------------------------------------->*/
 
 /*<!---------Start------------------------------------------------------------------------------------------------------------------------Rohan-Code--Sign-in-Page-------------------------------------------------------------------------------------------->*/
 
-.sign-in-main-1{
-        width: 100%;
-        height: 300px;
-        background-color: white;
-        /* border: 1px solid black; */
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        position: fixed;
-    }
-    .sign-in-login-info{
-        width: 42%;
-        height: 180px;
-        margin-top: 4%;
-        margin-left: 8%;
-    }
-    .sign-in-login-info > p{
-        color: grey;
-    }
-    .sign-in-main-2{
-        width: 60%;
-        height: 380px;
-        /* border: 1px solid black; */
-        position: absolute;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        top: 36%;
-        left: 20%;
-        background-color: white;
-    }
-    .sign-in-google-email-1{
-        width: 30%;
-        height: 40px;
-        margin-top: 6%;
-        margin-left: 35%;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        background-color: white;
-        border-radius: 1px;
-    }
-    .sign-in-google-img{
-        position: relative;
-        left: 6%;
-        top: 10%;
-    }
-    .sign-in-div-link-to-google-1{
-        position: absolute;
-        left: 20%;
-        bottom: 30%;
-    }
-    .sign-in-link-1{
-        color:#757575;
-        text-decoration: none;
-    }
-    .sign-in-google-gmail-1{
-        width: 30%;
-        height: 40px;
-        margin-top: 2%;
-        margin-left: 35%;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        background-color: #db4437;
-        border-radius: 1px;
-    }
-    .sign-in-mail-img{
-        position: relative;
-        left: 6%;
-        top: 10%; 
-    }
-    .sign-in-div-link-to-gmail-1{
-        position: absolute;
-        left: 43%;
-        bottom: 65%;
-    }
-    .sign-in-link-2{
-        color: white;
-        text-decoration: none;
-    }
-    .sign-in-terms-cond{
-        width: 43%;
-        height: 10px;
-        margin-top: 1%;
-        margin-left: 30%;
-    }
-    .sign-in-terms-text-1{
-        font-size: 12px;
-        color: grey;
-    }
-    .sign-in-link-3{
-        text-decoration: none;
-        position: absolute;
-        top: 46%;
-        color: #4285f4;
-        left: 35.3%;
-    }
-    .sign-in-and{
-        position: absolute;
-        left: 48%;
-        top: 42.8%;
-    }
-    .sign-in-link-4{
-        text-decoration: none;
-        position: absolute;
-        top: 46%;
-        color: #4285f4;
-        left: 51.5%;
-    }
+.sign-in-main-1 {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  /* border: 1px solid black; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: fixed;
+}
+.sign-in-login-info {
+  width: 42%;
+  height: 180px;
+  margin-top: 4%;
+  margin-left: 8%;
+}
+.sign-in-login-info > p {
+  color: grey;
+}
+.sign-in-main-2 {
+  width: 60%;
+  height: 380px;
+  /* border: 1px solid black; */
+  position: absolute;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  top: 36%;
+  left: 20%;
+  background-color: white;
+}
+.sign-in-google-email-1 {
+  width: 30%;
+  height: 40px;
+  margin-top: 6%;
+  margin-left: 35%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: white;
+  border-radius: 1px;
+}
+.sign-in-google-img {
+  position: relative;
+  left: 6%;
+  top: 10%;
+}
+.sign-in-div-link-to-google-1 {
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+}
+.sign-in-link-1 {
+  color: #757575;
+  text-decoration: none;
+}
+.sign-in-google-gmail-1 {
+  width: 30%;
+  height: 40px;
+  margin-top: 2%;
+  margin-left: 35%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: #db4437;
+  border-radius: 1px;
+}
+.sign-in-mail-img {
+  position: relative;
+  left: 6%;
+  top: 10%;
+}
+.sign-in-div-link-to-gmail-1 {
+  position: absolute;
+  left: 43%;
+  bottom: 65%;
+}
+.sign-in-link-2 {
+  color: white;
+  text-decoration: none;
+}
+.sign-in-terms-cond {
+  width: 43%;
+  height: 10px;
+  margin-top: 1%;
+  margin-left: 30%;
+}
+.sign-in-terms-text-1 {
+  font-size: 12px;
+  color: grey;
+}
+.sign-in-link-3 {
+  text-decoration: none;
+  position: absolute;
+  top: 46%;
+  color: #4285f4;
+  left: 35.3%;
+}
+.sign-in-and {
+  position: absolute;
+  left: 48%;
+  top: 42.8%;
+}
+.sign-in-link-4 {
+  text-decoration: none;
+  position: absolute;
+  top: 46%;
+  color: #4285f4;
+  left: 51.5%;
+}
 
 /*<!---------End------------------------------------------------------------------------------------------------------------------------Rohan-Code--Sign-in-Page-------------------------------------------------------------------------------------------->*/
 
-
 /*<!---------Start------------------------------------------------------------------------------------------------------------------------Rohan-Code--Registration--Page-------------------------------------------------------------------------------------------->*/
 
-.for-register-main-1{
-        width: 100%;
-        height: 300px;
-        background-color: white;
-        /* border: 1px solid black; */
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        position: fixed;
-    }
-    .for-register-login-info{
-        width: 42%;
-        height: 180px;
-        margin-top: 4%;
-        margin-left: 8%;
-    }
-    .for-register-login-info > p{
-        color: grey;
-    }
-    .for-register-main-2{
-        width: 60%;
-        height: 380px;
-        /* border: 1px solid black; */
-        position: absolute;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        top: 36%;
-        left: 20%;
-        background-color: white;
-    }
-    .for-register-google-email-1{
-        width: 30%;
-        height: 40px;
-        margin-top: 6%;
-        margin-left: 35%;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        background-color: white;
-        border-radius: 1px;
-    }
-    .for-register-google-img{
-        position: relative;
-        left: 6%;
-        top: 10%;
-    }
-    .for-register-div-link-to-google-1{
-        position: absolute;
-        left: 20%;
-        bottom: 30%;
-    }
-    .for-register-link-1{
-        color:#757575;
-        text-decoration: none;
-    }
-    .for-register-google-gmail-1{
-        width: 30%;
-        height: 40px;
-        margin-top: 2%;
-        margin-left: 35%;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        background-color: #db4437;
-        border-radius: 1px;
-    }
-    .for-register-mail-img{
-        position: relative;
-        left: 6%;
-        top: 10%; 
-    }
-    .for-register-div-link-to-gmail-1{
-        position: absolute;
-        left: 43%;
-        bottom: 65%;
-    }
-    .for-register-link-2{
-        color: white;
-        text-decoration: none;
-    }
-    .for-register-terms-cond{
-        width: 43%;
-        height: 10px;
-        margin-top: 1%;
-        margin-left: 30%;
-    }
-    .for-register-terms-text-1{
-        font-size: 12px;
-        color: grey;
-    }
-    .for-register-link-3{
-        text-decoration: none;
-        position: absolute;
-        top: 46%;
-        color: #4285f4;
-        left: 35.3%;
-    }
-    .for-register-and{
-        position: absolute;
-        left: 48%;
-        top: 42.8%;
-    }
-    .for-register-link-4{
-        text-decoration: none;
-        position: absolute;
-        top: 46%;
-        color: #4285f4;
-        left: 51.5%;
-    }
+.for-register-main-1 {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  /* border: 1px solid black; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: fixed;
+}
+.for-register-login-info {
+  width: 42%;
+  height: 180px;
+  margin-top: 4%;
+  margin-left: 8%;
+}
+.for-register-login-info > p {
+  color: grey;
+}
+.for-register-main-2 {
+  width: 60%;
+  height: 380px;
+  /* border: 1px solid black; */
+  position: absolute;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  top: 36%;
+  left: 20%;
+  background-color: white;
+}
+.for-register-google-email-1 {
+  width: 30%;
+  height: 40px;
+  margin-top: 6%;
+  margin-left: 35%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: white;
+  border-radius: 1px;
+}
+.for-register-google-img {
+  position: relative;
+  left: 6%;
+  top: 10%;
+}
+.for-register-div-link-to-google-1 {
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+}
+.for-register-link-1 {
+  color: #757575;
+  text-decoration: none;
+}
+.for-register-google-gmail-1 {
+  width: 30%;
+  height: 40px;
+  margin-top: 2%;
+  margin-left: 35%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: #db4437;
+  border-radius: 1px;
+}
+.for-register-mail-img {
+  position: relative;
+  left: 6%;
+  top: 10%;
+}
+.for-register-div-link-to-gmail-1 {
+  position: absolute;
+  left: 43%;
+  bottom: 65%;
+}
+.for-register-link-2 {
+  color: white;
+  text-decoration: none;
+}
+.for-register-terms-cond {
+  width: 43%;
+  height: 10px;
+  margin-top: 1%;
+  margin-left: 30%;
+}
+.for-register-terms-text-1 {
+  font-size: 12px;
+  color: grey;
+}
+.for-register-link-3 {
+  text-decoration: none;
+  position: absolute;
+  top: 46%;
+  color: #4285f4;
+  left: 35.3%;
+}
+.for-register-and {
+  position: absolute;
+  left: 48%;
+  top: 42.8%;
+}
+.for-register-link-4 {
+  text-decoration: none;
+  position: absolute;
+  top: 46%;
+  color: #4285f4;
+  left: 51.5%;
+}
 
 /*<!---------End------------------------------------------------------------------------------------------------------------------------Rohan-Code--Registartion--Page-------------------------------------------------------------------------------------------->*/
 
@@ -1247,7 +1259,6 @@ iframe {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 
 /* Fading animation */
 .fade {
@@ -1472,12 +1483,12 @@ iframe {
   margin-top: 90px;
 }
 /* Modules */
-.modules{
+.modules {
   height: auto;
   width: auto;
   margin: 80px;
 }
-.modules > h2{
+.modules > h2 {
   text-align: center;
   margin-bottom: 100px;
 }
@@ -1495,26 +1506,24 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 0 5px;
 }
-.module > img{
+.module > img {
   width: 20%;
 }
-.module > h4{
+.module > h4 {
   margin-bottom: 0px;
 }
-.module > p{
+.module > p {
   margin-top: 5px;
-  color: grey
+  color: grey;
 }
-.module > a{
+.module > a {
   text-decoration: none;
   color: rgb(51, 51, 236);
   font-size: 14px;
 }
-.module >hr{
+.module > hr {
   margin-bottom: 15px;
 }
-
-
 
 /* slideshow containers */
 .cards-container {
@@ -1558,11 +1567,9 @@ iframe {
   text-align: center;
 }
 
-
-
 /* Skills you'll learn */
 .skills {
-    border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);
   background-color: white;
   padding: 90px;
   height: auto;
@@ -1581,7 +1588,7 @@ iframe {
 }
 /* Stories */
 .stories {
-    border-top: 1px solid rgb(179, 175, 175) rgb(179, 175, 175);
+  border-top: 1px solid rgb(179, 175, 175) rgb(179, 175, 175);
   background-color: white;
   padding: 50px;
 }
@@ -1622,7 +1629,7 @@ iframe {
 /* FAQ */
 .FAQ {
   /* border: 1px solid; */
-  border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -1630,12 +1637,11 @@ iframe {
 .FAQ > hr {
   width: 70%;
 }
-.FAQ > .content{
+.FAQ > .content {
   text-align: left;
   width: 65%;
   margin-left: 190px;
   height: auto;
-
 }
 #faq-btn {
   background-color: rgb(242, 244, 246);
@@ -1648,7 +1654,7 @@ iframe {
 }
 /* Start today */
 .start-today {
-    border-top: 1px solid rgb(179, 175, 175);;
+  border-top: 1px solid rgb(179, 175, 175);
   text-align: center;
   width: 92.5%;
   background-color: white;
