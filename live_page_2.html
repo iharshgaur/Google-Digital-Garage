@@ -28,7 +28,12 @@
       >
       <a href="live_page_1.html" class="nav-menus float-left"> Live Training</a>
       <a href="#" class="nav-menus float-left"> Remote Working</a>
-
+      <select class="nav-menus menu-dropdown">
+        <option>More</option>
+        <option class="dropdown-list">Tools & Resources</option>
+        <option class="dropdown-list">Help & FAQs</option>
+        <option class="dropdown-list">Feedback</option>
+      </select>
       <button
         class="blue-button float-right google-register-btn"
         onclick="window.location.href='/registration_page.html'"
@@ -290,6 +295,18 @@
       </div>
     </div>
     <script type="text/javascript">
+       //for navbar scroll
+       var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.querySelector(".navbar").style.top = "0";
+        } else {
+          document.querySelector(".navbar").style.top = "-80px";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+      //for next buttons
       var live_2_btn_1 = document.querySelector(".live-2-move-btn-1");
       var live_2_btn_2 = document.querySelector(".live-2-move-btn-2");
       var live_2_btn_3 = document.querySelector("#live-2-move-arrow");

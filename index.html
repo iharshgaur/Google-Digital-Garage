@@ -28,7 +28,12 @@
       >
       <a href="live_page_1.html" class="nav-menus float-left"> Live Training</a>
       <a href="#" class="nav-menus float-left"> Remote Working</a>
-
+      <select class="nav-menus menu-dropdown">
+        <option>More</option>
+        <option class="dropdown-list">Tools & Resources</option>
+        <option class="dropdown-list">Help & FAQs</option>
+        <option class="dropdown-list">Feedback</option>
+      </select>
       <button
         class="blue-button float-right google-register-btn"
         onclick="window.location.href='/registration_page.html'"
@@ -401,7 +406,12 @@
         </div>
 
         <div class="see-more-events">
-          <button class="btn-events"  onclick="window.location.href='/live_page_1.html'">SEE MORE EVENTS</button>
+          <button
+            class="btn-events"
+            onclick="window.location.href='/live_page_1.html'"
+          >
+            SEE MORE EVENTS
+          </button>
         </div>
       </div>
     </div>
@@ -644,6 +654,18 @@
     </div>
 
     <script>
+          //for navbar scroll
+          var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.querySelector(".navbar").style.top = "0";
+        } else {
+          document.querySelector(".navbar").style.top = "-80px";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+      //for video cards
       var slideIndex = 1;
       showSlides(slideIndex);
 
@@ -674,6 +696,25 @@
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
       }
+      //for dropdown
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+  
     </script>
   </body>
 </html>
