@@ -55,6 +55,22 @@ In today's environment, more employees, educators, and students are working remo
 
 <img src="register-page.png">
 
+
+
+## Features
+
+1. A static clone of google digital store
+<br>
+
+## Limitations
+
+1. Not responsive yet and might not be properly visible on small screen devices
+
+<br>
+
+
+## Contributers
+
  👤 **MD Amanullah**
 
 - Github: [MD Amanullah](https://github.com/Amanullah21)
